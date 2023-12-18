@@ -1,0 +1,1827 @@
+,Month,Breakdown,Country,Number of Tourists
+15,01/01/2010,Europe,Germany,5890.0
+16,01/01/2010,Europe,Italy,12276.0
+17,01/01/2010,Europe,Russia,5873.0
+18,01/01/2010,Europe,the United Kingdom,8405.0
+19,01/01/2010,Asia,China,6069.0
+20,01/01/2010,Asia,India,1742.0
+25,01/01/2010,Europe,France,6899.0
+43,01/02/2010,Europe,Germany,6602.0
+44,01/02/2010,Europe,Italy,12003.0
+45,01/02/2010,Europe,Russia,3285.0
+46,01/02/2010,Europe,the United Kingdom,10422.0
+47,01/02/2010,Asia,China,13345.0
+48,01/02/2010,Asia,India,1594.0
+53,01/02/2010,Europe,France,8464.0
+71,01/03/2010,Europe,Germany,8554.0
+72,01/03/2010,Europe,Italy,13153.0
+73,01/03/2010,Europe,Russia,4301.0
+74,01/03/2010,Europe,the United Kingdom,11394.0
+75,01/03/2010,Asia,China,6144.0
+76,01/03/2010,Asia,India,1385.0
+81,01/03/2010,Europe,France,7190.0
+99,01/04/2010,Europe,Germany,5317.0
+100,01/04/2010,Europe,Italy,7577.0
+101,01/04/2010,Europe,Russia,3899.0
+102,01/04/2010,Europe,the United Kingdom,9529.0
+103,01/04/2010,Asia,China,7060.0
+104,01/04/2010,Asia,India,1802.0
+109,01/04/2010,Europe,France,5459.0
+127,01/05/2010,Europe,Germany,7634.0
+128,01/05/2010,Europe,Italy,3213.0
+129,01/05/2010,Europe,Russia,3704.0
+130,01/05/2010,Europe,the United Kingdom,9460.0
+131,01/05/2010,Asia,China,8964.0
+132,01/05/2010,Asia,India,2400.0
+137,01/05/2010,Europe,France,2920.0
+155,01/06/2010,Europe,Germany,3748.0
+156,01/06/2010,Europe,Italy,3495.0
+157,01/06/2010,Europe,Russia,2569.0
+158,01/06/2010,Europe,the United Kingdom,6728.0
+159,01/06/2010,Asia,China,8615.0
+160,01/06/2010,Asia,India,1999.0
+165,01/06/2010,Europe,France,1155.0
+183,01/07/2010,Europe,Germany,4402.0
+184,01/07/2010,Europe,Italy,3882.0
+185,01/07/2010,Europe,Russia,3098.0
+186,01/07/2010,Europe,the United Kingdom,9053.0
+187,01/07/2010,Asia,China,12449.0
+188,01/07/2010,Asia,India,1871.0
+193,01/07/2010,Europe,France,1464.0
+211,01/08/2010,Europe,Germany,4943.0
+212,01/08/2010,Europe,Italy,8351.0
+213,01/08/2010,Europe,Russia,4176.0
+214,01/08/2010,Europe,the United Kingdom,10259.0
+215,01/08/2010,Asia,China,14998.0
+216,01/08/2010,Asia,India,1419.0
+221,01/08/2010,Europe,France,2257.0
+239,01/09/2010,Europe,Germany,6412.0
+240,01/09/2010,Europe,Italy,4167.0
+241,01/09/2010,Europe,Russia,3488.0
+242,01/09/2010,Europe,the United Kingdom,9917.0
+243,01/09/2010,Asia,China,13028.0
+244,01/09/2010,Asia,India,1838.0
+249,01/09/2010,Europe,France,2061.0
+267,01/10/2010,Europe,Germany,8937.0
+268,01/10/2010,Europe,Italy,5153.0
+269,01/10/2010,Europe,Russia,4482.0
+270,01/10/2010,Europe,the United Kingdom,10419.0
+271,01/10/2010,Asia,China,13476.0
+272,01/10/2010,Asia,India,2387.0
+277,01/10/2010,Europe,France,4159.0
+295,01/11/2010,Europe,Germany,8444.0
+296,01/11/2010,Europe,Italy,6506.0
+297,01/11/2010,Europe,Russia,4750.0
+298,01/11/2010,Europe,the United Kingdom,9614.0
+299,01/11/2010,Asia,China,8313.0
+300,01/11/2010,Asia,India,3110.0
+305,01/11/2010,Europe,France,5930.0
+323,01/12/2010,Europe,Germany,6225.0
+324,01/12/2010,Europe,Italy,9845.0
+325,01/12/2010,Europe,Russia,5486.0
+326,01/12/2010,Europe,the United Kingdom,8958.0
+327,01/12/2010,Asia,China,6500.0
+328,01/12/2010,Asia,India,4209.0
+333,01/12/2010,Europe,France,6831.0
+351,01/01/2011,Europe,Germany,6109.0
+352,01/01/2011,Europe,Italy,12828.0
+353,01/01/2011,Europe,Russia,6256.0
+354,01/01/2011,Europe,the United Kingdom,8435.0
+355,01/01/2011,Asia,China,12367.0
+356,01/01/2011,Asia,India,2786.0
+361,01/01/2011,Europe,France,7606.0
+379,01/02/2011,Europe,Germany,6874.0
+380,01/02/2011,Europe,Italy,11499.0
+381,01/02/2011,Europe,Russia,4347.0
+382,01/02/2011,Europe,the United Kingdom,9661.0
+383,01/02/2011,Asia,China,18759.0
+384,01/02/2011,Asia,India,2078.0
+389,01/02/2011,Europe,France,9286.0
+407,01/03/2011,Europe,Germany,8906.0
+408,01/03/2011,Europe,Italy,12143.0
+409,01/03/2011,Europe,Russia,6043.0
+410,01/03/2011,Europe,the United Kingdom,9637.0
+411,01/03/2011,Asia,China,8968.0
+412,01/03/2011,Asia,India,2030.0
+417,01/03/2011,Europe,France,8646.0
+435,01/04/2011,Europe,Germany,9389.0
+436,01/04/2011,Europe,Italy,8398.0
+437,01/04/2011,Europe,Russia,5205.0
+438,01/04/2011,Europe,the United Kingdom,11167.0
+439,01/04/2011,Asia,China,10165.0
+440,01/04/2011,Asia,India,2109.0
+445,01/04/2011,Europe,France,6557.0
+463,01/05/2011,Europe,Germany,7467.0
+464,01/05/2011,Europe,Italy,3077.0
+465,01/05/2011,Europe,Russia,4793.0
+466,01/05/2011,Europe,the United Kingdom,7988.0
+467,01/05/2011,Asia,China,14889.0
+468,01/05/2011,Asia,India,2813.0
+473,01/05/2011,Europe,France,2842.0
+491,01/06/2011,Europe,Germany,5276.0
+492,01/06/2011,Europe,Italy,2347.0
+493,01/06/2011,Europe,Russia,3812.0
+494,01/06/2011,Europe,the United Kingdom,6338.0
+495,01/06/2011,Asia,China,15410.0
+496,01/06/2011,Asia,India,2659.0
+501,01/06/2011,Europe,France,1758.0
+519,01/07/2011,Europe,Germany,5034.0
+520,01/07/2011,Europe,Italy,3208.0
+521,01/07/2011,Europe,Russia,4565.0
+522,01/07/2011,Europe,the United Kingdom,7795.0
+523,01/07/2011,Asia,China,23176.0
+524,01/07/2011,Asia,India,2359.0
+529,01/07/2011,Europe,France,1550.0
+547,01/08/2011,Europe,Germany,5918.0
+548,01/08/2011,Europe,Italy,7267.0
+549,01/08/2011,Europe,Russia,5214.0
+550,01/08/2011,Europe,the United Kingdom,8855.0
+551,01/08/2011,Asia,China,22827.0
+552,01/08/2011,Asia,India,1963.0
+557,01/08/2011,Europe,France,2588.0
+575,01/09/2011,Europe,Germany,6956.0
+576,01/09/2011,Europe,Italy,3479.0
+577,01/09/2011,Europe,Russia,4594.0
+578,01/09/2011,Europe,the United Kingdom,8896.0
+579,01/09/2011,Asia,China,20107.0
+580,01/09/2011,Asia,India,1820.0
+585,01/09/2011,Europe,France,2169.0
+603,01/10/2011,Europe,Germany,10986.0
+604,01/10/2011,Europe,Italy,4610.0
+605,01/10/2011,Europe,Russia,5887.0
+606,01/10/2011,Europe,the United Kingdom,9537.0
+607,01/10/2011,Asia,China,22595.0
+608,01/10/2011,Asia,India,3007.0
+613,01/10/2011,Europe,France,4355.0
+631,01/11/2011,Europe,Germany,10058.0
+632,01/11/2011,Europe,Italy,5543.0
+633,01/11/2011,Europe,Russia,6008.0
+634,01/11/2011,Europe,the United Kingdom,8310.0
+635,01/11/2011,Asia,China,16897.0
+636,01/11/2011,Asia,India,3232.0
+641,01/11/2011,Europe,France,5258.0
+659,01/12/2011,Europe,Germany,7544.0
+660,01/12/2011,Europe,Italy,8929.0
+661,01/12/2011,Europe,Russia,7212.0
+662,01/12/2011,Europe,the United Kingdom,7889.0
+663,01/12/2011,Asia,China,12495.0
+664,01/12/2011,Asia,India,4122.0
+669,01/12/2011,Europe,France,7079.0
+687,01/01/2012,Europe,Germany,7532.0
+688,01/01/2012,Europe,Italy,10451.0
+689,01/01/2012,Europe,Russia,7418.0
+690,01/01/2012,Europe,the United Kingdom,7001.0
+691,01/01/2012,Asia,China,28008.0
+692,01/01/2012,Asia,India,2303.0
+697,01/01/2012,Europe,France,7578.0
+715,01/02/2012,Europe,Germany,8591.0
+716,01/02/2012,Europe,Italy,8910.0
+717,01/02/2012,Europe,Russia,5370.0
+718,01/02/2012,Europe,the United Kingdom,9006.0
+719,01/02/2012,Asia,China,12237.0
+720,01/02/2012,Asia,India,2219.0
+725,01/02/2012,Europe,France,9742.0
+743,01/03/2012,Europe,Germany,10232.0
+744,01/03/2012,Europe,Italy,7578.0
+745,01/03/2012,Europe,Russia,7131.0
+746,01/03/2012,Europe,the United Kingdom,8388.0
+747,01/03/2012,Asia,China,6417.0
+748,01/03/2012,Asia,India,1657.0
+753,01/03/2012,Europe,France,7875.0
+771,01/04/2012,Europe,Germany,10145.0
+772,01/04/2012,Europe,Italy,6130.0
+773,01/04/2012,Europe,Russia,6462.0
+774,01/04/2012,Europe,the United Kingdom,8934.0
+775,01/04/2012,Asia,China,10523.0
+776,01/04/2012,Asia,India,1877.0
+781,01/04/2012,Europe,France,6587.0
+799,01/05/2012,Europe,Germany,9736.0
+800,01/05/2012,Europe,Italy,1874.0
+801,01/05/2012,Europe,Russia,3960.0
+802,01/05/2012,Europe,the United Kingdom,6670.0
+803,01/05/2012,Asia,China,16154.0
+804,01/05/2012,Asia,India,2766.0
+809,01/05/2012,Europe,France,2705.0
+827,01/06/2012,Europe,Germany,4782.0
+828,01/06/2012,Europe,Italy,1578.0
+829,01/06/2012,Europe,Russia,3345.0
+830,01/06/2012,Europe,the United Kingdom,6146.0
+831,01/06/2012,Asia,China,17809.0
+832,01/06/2012,Asia,India,2495.0
+837,01/06/2012,Europe,France,1251.0
+855,01/07/2012,Europe,Germany,6199.0
+856,01/07/2012,Europe,Italy,2853.0
+857,01/07/2012,Europe,Russia,3918.0
+858,01/07/2012,Europe,the United Kingdom,7286.0
+859,01/07/2012,Asia,China,27653.0
+860,01/07/2012,Asia,India,2039.0
+865,01/07/2012,Europe,France,1632.0
+883,01/08/2012,Europe,Germany,6485.0
+884,01/08/2012,Europe,Italy,5225.0
+885,01/08/2012,Europe,Russia,4562.0
+886,01/08/2012,Europe,the United Kingdom,7450.0
+887,01/08/2012,Asia,China,25138.0
+888,01/08/2012,Asia,India,2264.0
+893,01/08/2012,Europe,France,2785.0
+911,01/09/2012,Europe,Germany,8248.0
+912,01/09/2012,Europe,Italy,2749.0
+913,01/09/2012,Europe,Russia,4274.0
+914,01/09/2012,Europe,the United Kingdom,7106.0
+915,01/09/2012,Asia,China,25178.0
+916,01/09/2012,Asia,India,2103.0
+921,01/09/2012,Europe,France,2042.0
+939,01/10/2012,Europe,Germany,10597.0
+940,01/10/2012,Europe,Italy,3679.0
+941,01/10/2012,Europe,Russia,5622.0
+942,01/10/2012,Europe,the United Kingdom,8666.0
+943,01/10/2012,Asia,China,26301.0
+944,01/10/2012,Asia,India,2546.0
+949,01/10/2012,Europe,France,3815.0
+967,01/11/2012,Europe,Germany,8729.0
+968,01/11/2012,Europe,Italy,3551.0
+969,01/11/2012,Europe,Russia,6860.0
+970,01/11/2012,Europe,the United Kingdom,7164.0
+971,01/11/2012,Asia,China,18450.0
+972,01/11/2012,Asia,India,3930.0
+977,01/11/2012,Europe,France,4942.0
+995,01/12/2012,Europe,Germany,7075.0
+996,01/12/2012,Europe,Italy,8204.0
+997,01/12/2012,Europe,Russia,7456.0
+998,01/12/2012,Europe,the United Kingdom,7959.0
+999,01/12/2012,Asia,China,15683.0
+1000,01/12/2012,Asia,India,5522.0
+1005,01/12/2012,Europe,France,5821.0
+1023,01/01/2013,Europe,Germany,6926.0
+1024,01/01/2013,Europe,Italy,7050.0
+1025,01/01/2013,Europe,Russia,9061.0
+1026,01/01/2013,Europe,the United Kingdom,6367.0
+1027,01/01/2013,Asia,China,19208.0
+1028,01/01/2013,Asia,India,3483.0
+1033,01/01/2013,Europe,France,6688.0
+1051,01/02/2013,Europe,Germany,7755.0
+1052,01/02/2013,Europe,Italy,7832.0
+1053,01/02/2013,Europe,Russia,6737.0
+1054,01/02/2013,Europe,the United Kingdom,7745.0
+1055,01/02/2013,Asia,China,33592.0
+1056,01/02/2013,Asia,India,3493.0
+1061,01/02/2013,Europe,France,7666.0
+1079,01/03/2013,Europe,Germany,11001.0
+1080,01/03/2013,Europe,Italy,8365.0
+1081,01/03/2013,Europe,Russia,8457.0
+1082,01/03/2013,Europe,the United Kingdom,8438.0
+1083,01/03/2013,Asia,China,17770.0
+1084,01/03/2013,Asia,India,2769.0
+1089,01/03/2013,Europe,France,7990.0
+1107,01/04/2013,Europe,Germany,8303.0
+1108,01/04/2013,Europe,Italy,5542.0
+1109,01/04/2013,Europe,Russia,6241.0
+1110,01/04/2013,Europe,the United Kingdom,8654.0
+1111,01/04/2013,Asia,China,20329.0
+1112,01/04/2013,Asia,India,2521.0
+1117,01/04/2013,Europe,France,6021.0
+1135,01/05/2013,Europe,Germany,8812.0
+1136,01/05/2013,Europe,Italy,1813.0
+1137,01/05/2013,Europe,Russia,5230.0
+1138,01/05/2013,Europe,the United Kingdom,6886.0
+1139,01/05/2013,Asia,China,23613.0
+1140,01/05/2013,Asia,India,3951.0
+1145,01/05/2013,Europe,France,3540.0
+1163,01/06/2013,Europe,Germany,4421.0
+1164,01/06/2013,Europe,Italy,1579.0
+1165,01/06/2013,Europe,Russia,4063.0
+1166,01/06/2013,Europe,the United Kingdom,5100.0
+1167,01/06/2013,Asia,China,28007.0
+1168,01/06/2013,Asia,India,3214.0
+1173,01/06/2013,Europe,France,1081.0
+1191,01/07/2013,Europe,Germany,5418.0
+1192,01/07/2013,Europe,Italy,2683.0
+1193,01/07/2013,Europe,Russia,4612.0
+1194,01/07/2013,Europe,the United Kingdom,6945.0
+1195,01/07/2013,Asia,China,36551.0
+1196,01/07/2013,Asia,India,2335.0
+1201,01/07/2013,Europe,France,1501.0
+1219,01/08/2013,Europe,Germany,5930.0
+1220,01/08/2013,Europe,Italy,5424.0
+1221,01/08/2013,Europe,Russia,5188.0
+1222,01/08/2013,Europe,the United Kingdom,7409.0
+1223,01/08/2013,Asia,China,35814.0
+1224,01/08/2013,Asia,India,2576.0
+1229,01/08/2013,Europe,France,2692.0
+1247,01/09/2013,Europe,Germany,8148.0
+1248,01/09/2013,Europe,Italy,2722.0
+1249,01/09/2013,Europe,Russia,4833.0
+1250,01/09/2013,Europe,the United Kingdom,6688.0
+1251,01/09/2013,Asia,China,35026.0
+1252,01/09/2013,Asia,India,2179.0
+1257,01/09/2013,Europe,France,2036.0
+1275,01/10/2013,Europe,Germany,10360.0
+1276,01/10/2013,Europe,Italy,3128.0
+1277,01/10/2013,Europe,Russia,6277.0
+1278,01/10/2013,Europe,the United Kingdom,7714.0
+1279,01/10/2013,Asia,China,35041.0
+1280,01/10/2013,Asia,India,2703.0
+1285,01/10/2013,Europe,France,4388.0
+1303,01/11/2013,Europe,Germany,8869.0
+1304,01/11/2013,Europe,Italy,3686.0
+1305,01/11/2013,Europe,Russia,7675.0
+1306,01/11/2013,Europe,the United Kingdom,6694.0
+1307,01/11/2013,Asia,China,26008.0
+1308,01/11/2013,Asia,India,3588.0
+1313,01/11/2013,Europe,France,4632.0
+1331,01/12/2013,Europe,Germany,7655.0
+1332,01/12/2013,Europe,Italy,8030.0
+1333,01/12/2013,Europe,Russia,8105.0
+1334,01/12/2013,Europe,the United Kingdom,7229.0
+1335,01/12/2013,Asia,China,20760.0
+1336,01/12/2013,Asia,India,5202.0
+1341,01/12/2013,Europe,France,6093.0
+1359,01/01/2014,Europe,Germany,6527.0
+1360,01/01/2014,Europe,Italy,6879.0
+1361,01/01/2014,Europe,Russia,9289.0
+1362,01/01/2014,Europe,the United Kingdom,6710.0
+1363,01/01/2014,Asia,China,30612.0
+1364,01/01/2014,Asia,India,3426.0
+1369,01/01/2014,Europe,France,6395.0
+1387,01/02/2014,Europe,Germany,8050.0
+1388,01/02/2014,Europe,Italy,7455.0
+1389,01/02/2014,Europe,Russia,6182.0
+1390,01/02/2014,Europe,the United Kingdom,7913.0
+1391,01/02/2014,Asia,China,33213.0
+1392,01/02/2014,Asia,India,3596.0
+1397,01/02/2014,Europe,France,7943.0
+1415,01/03/2014,Europe,Germany,9973.0
+1416,01/03/2014,Europe,Italy,7953.0
+1417,01/03/2014,Europe,Russia,7121.0
+1418,01/03/2014,Europe,the United Kingdom,8674.0
+1419,01/03/2014,Asia,China,23705.0
+1420,01/03/2014,Asia,India,3080.0
+1425,01/03/2014,Europe,France,7602.0
+1443,01/04/2014,Europe,Germany,10273.0
+1444,01/04/2014,Europe,Italy,6994.0
+1445,01/04/2014,Europe,Russia,5568.0
+1446,01/04/2014,Europe,the United Kingdom,9462.0
+1447,01/04/2014,Asia,China,24034.0
+1448,01/04/2014,Asia,India,3622.0
+1453,01/04/2014,Europe,France,5537.0
+1471,01/05/2014,Europe,Germany,8365.0
+1472,01/05/2014,Europe,Italy,1847.0
+1473,01/05/2014,Europe,Russia,4878.0
+1474,01/05/2014,Europe,the United Kingdom,7081.0
+1475,01/05/2014,Asia,China,29685.0
+1476,01/05/2014,Asia,India,4612.0
+1481,01/05/2014,Europe,France,3290.0
+1499,01/06/2014,Europe,Germany,5416.0
+1500,01/06/2014,Europe,Italy,1793.0
+1501,01/06/2014,Europe,Russia,4312.0
+1502,01/06/2014,Europe,the United Kingdom,5415.0
+1503,01/06/2014,Asia,China,30000.0
+1504,01/06/2014,Asia,India,3847.0
+1509,01/06/2014,Europe,France,1203.0
+1527,01/07/2014,Europe,Germany,5371.0
+1528,01/07/2014,Europe,Italy,2742.0
+1529,01/07/2014,Europe,Russia,4624.0
+1530,01/07/2014,Europe,the United Kingdom,6567.0
+1531,01/07/2014,Asia,China,43269.0
+1532,01/07/2014,Asia,India,3222.0
+1537,01/07/2014,Europe,France,1337.0
+1555,01/08/2014,Europe,Germany,7293.0
+1556,01/08/2014,Europe,Italy,4717.0
+1557,01/08/2014,Europe,Russia,4896.0
+1558,01/08/2014,Europe,the United Kingdom,7742.0
+1559,01/08/2014,Asia,China,37895.0
+1560,01/08/2014,Asia,India,3119.0
+1565,01/08/2014,Europe,France,2437.0
+1583,01/09/2014,Europe,Germany,8163.0
+1584,01/09/2014,Europe,Italy,2819.0
+1585,01/09/2014,Europe,Russia,4047.0
+1586,01/09/2014,Europe,the United Kingdom,7038.0
+1587,01/09/2014,Asia,China,34425.0
+1588,01/09/2014,Asia,India,3258.0
+1593,01/09/2014,Europe,France,1955.0
+1611,01/10/2014,Europe,Germany,11490.0
+1612,01/10/2014,Europe,Italy,2694.0
+1613,01/10/2014,Europe,Russia,5632.0
+1614,01/10/2014,Europe,the United Kingdom,8017.0
+1615,01/10/2014,Asia,China,33828.0
+1616,01/10/2014,Asia,India,4646.0
+1621,01/10/2014,Europe,France,4001.0
+1639,01/11/2014,Europe,Germany,9483.0
+1640,01/11/2014,Europe,Italy,3583.0
+1641,01/11/2014,Europe,Russia,5273.0
+1642,01/11/2014,Europe,the United Kingdom,6442.0
+1643,01/11/2014,Asia,China,24729.0
+1644,01/11/2014,Asia,India,3117.0
+1649,01/11/2014,Europe,France,3516.0
+1667,01/12/2014,Europe,Germany,7924.0
+1668,01/12/2014,Europe,Italy,8386.0
+1669,01/12/2014,Europe,Russia,4486.0
+1670,01/12/2014,Europe,the United Kingdom,7643.0
+1671,01/12/2014,Asia,China,18231.0
+1672,01/12/2014,Asia,India,6042.0
+1677,01/12/2014,Europe,France,5440.0
+1695,01/01/2015,Europe,Germany,7093.0
+1696,01/01/2015,Europe,Italy,8039.0
+1697,01/01/2015,Europe,Russia,5790.0
+1698,01/01/2015,Europe,the United Kingdom,7150.0
+1699,01/01/2015,Asia,China,20469.0
+1700,01/01/2015,Asia,India,3922.0
+1705,01/01/2015,Europe,France,5694.0
+1723,01/02/2015,Europe,Germany,8879.0
+1724,01/02/2015,Europe,Italy,8224.0
+1725,01/02/2015,Europe,Russia,2882.0
+1726,01/02/2015,Europe,the United Kingdom,8752.0
+1727,01/02/2015,Asia,China,43349.0
+1728,01/02/2015,Asia,India,4235.0
+1733,01/02/2015,Europe,France,6690.0
+1751,01/03/2015,Europe,Germany,12203.0
+1752,01/03/2015,Europe,Italy,9725.0
+1753,01/03/2015,Europe,Russia,4048.0
+1754,01/03/2015,Europe,the United Kingdom,9256.0
+1755,01/03/2015,Asia,China,25069.0
+1756,01/03/2015,Asia,India,3654.0
+1761,01/03/2015,Europe,France,5272.0
+1779,01/04/2015,Europe,Germany,8388.0
+1780,01/04/2015,Europe,Italy,5686.0
+1781,01/04/2015,Europe,Russia,3855.0
+1782,01/04/2015,Europe,the United Kingdom,8793.0
+1783,01/04/2015,Asia,China,26398.0
+1784,01/04/2015,Asia,India,3750.0
+1789,01/04/2015,Europe,France,4973.0
+1807,01/05/2015,Europe,Germany,10371.0
+1808,01/05/2015,Europe,Italy,2163.0
+1809,01/05/2015,Europe,Russia,3053.0
+1810,01/05/2015,Europe,the United Kingdom,6867.0
+1811,01/05/2015,Asia,China,30864.0
+1812,01/05/2015,Asia,India,5387.0
+1817,01/05/2015,Europe,France,2815.0
+1835,01/06/2015,Europe,Germany,4927.0
+1836,01/06/2015,Europe,Italy,2017.0
+1837,01/06/2015,Europe,Russia,2500.0
+1838,01/06/2015,Europe,the United Kingdom,5923.0
+1839,01/06/2015,Asia,China,31965.0
+1840,01/06/2015,Asia,India,4390.0
+1845,01/06/2015,Europe,France,749.0
+1863,01/07/2015,Europe,Germany,5859.0
+1864,01/07/2015,Europe,Italy,2538.0
+1865,01/07/2015,Europe,Russia,3180.0
+1866,01/07/2015,Europe,the United Kingdom,7174.0
+1867,01/07/2015,Asia,China,41527.0
+1868,01/07/2015,Asia,India,3376.0
+1873,01/07/2015,Europe,France,1081.0
+1891,01/08/2015,Europe,Germany,7698.0
+1892,01/08/2015,Europe,Italy,5603.0
+1893,01/08/2015,Europe,Russia,3347.0
+1894,01/08/2015,Europe,the United Kingdom,7805.0
+1895,01/08/2015,Asia,China,40850.0
+1896,01/08/2015,Asia,India,3467.0
+1901,01/08/2015,Europe,France,2162.0
+1919,01/09/2015,Europe,Germany,8140.0
+1920,01/09/2015,Europe,Italy,2828.0
+1921,01/09/2015,Europe,Russia,2309.0
+1922,01/09/2015,Europe,the United Kingdom,6799.0
+1923,01/09/2015,Asia,China,32198.0
+1924,01/09/2015,Asia,India,3323.0
+1929,01/09/2015,Europe,France,1664.0
+1947,01/10/2015,Europe,Germany,12252.0
+1948,01/10/2015,Europe,Italy,3084.0
+1949,01/10/2015,Europe,Russia,3860.0
+1950,01/10/2015,Europe,the United Kingdom,7724.0
+1951,01/10/2015,Asia,China,30714.0
+1952,01/10/2015,Asia,India,4344.0
+1957,01/10/2015,Europe,France,3077.0
+1975,01/11/2015,Europe,Germany,9682.0
+1976,01/11/2015,Europe,Italy,4429.0
+1977,01/11/2015,Europe,Russia,3702.0
+1978,01/11/2015,Europe,the United Kingdom,7001.0
+1979,01/11/2015,Asia,China,19856.0
+1980,01/11/2015,Asia,India,4857.0
+1985,01/11/2015,Europe,France,2846.0
+2003,01/12/2015,Europe,Germany,9640.0
+2004,01/12/2015,Europe,Italy,11280.0
+2005,01/12/2015,Europe,Russia,5797.0
+2006,01/12/2015,Europe,the United Kingdom,9531.0
+2007,01/12/2015,Asia,China,16255.0
+2008,01/12/2015,Asia,India,7663.0
+2013,01/12/2015,Europe,France,5001.0
+2031,01/01/2016,Europe,Germany,7837.0
+2032,01/01/2016,Europe,Italy,8828.0
+2033,01/01/2016,Europe,Russia,5272.0
+2034,01/01/2016,Europe,the United Kingdom,7728.0
+2035,01/01/2016,Asia,China,23241.0
+2036,01/01/2016,Asia,India,5182.0
+2041,01/01/2016,Europe,France,5127.0
+2059,01/02/2016,Europe,Germany,9247.0
+2060,01/02/2016,Europe,Italy,9253.0
+2061,01/02/2016,Europe,Russia,3274.0
+2062,01/02/2016,Europe,the United Kingdom,10603.0
+2063,01/02/2016,Asia,China,34330.0
+2064,01/02/2016,Asia,India,4650.0
+2069,01/02/2016,Europe,France,6500.0
+2087,01/03/2016,Europe,Germany,13268.0
+2088,01/03/2016,Europe,Italy,9086.0
+2089,01/03/2016,Europe,Russia,4461.0
+2090,01/03/2016,Europe,the United Kingdom,11095.0
+2091,01/03/2016,Asia,China,21741.0
+2092,01/03/2016,Asia,India,4339.0
+2097,01/03/2016,Europe,France,4798.0
+2115,01/04/2016,Europe,Germany,8810.0
+2116,01/04/2016,Europe,Italy,5490.0
+2117,01/04/2016,Europe,Russia,3363.0
+2118,01/04/2016,Europe,the United Kingdom,8964.0
+2119,01/04/2016,Asia,China,24794.0
+2120,01/04/2016,Asia,India,4619.0
+2125,01/04/2016,Europe,France,4753.0
+2143,01/05/2016,Europe,Germany,10141.0
+2144,01/05/2016,Europe,Italy,2746.0
+2145,01/05/2016,Europe,Russia,3077.0
+2146,01/05/2016,Europe,the United Kingdom,7253.0
+2147,01/05/2016,Asia,China,25005.0
+2148,01/05/2016,Asia,India,6651.0
+2153,01/05/2016,Europe,France,2286.0
+2171,01/06/2016,Europe,Germany,4617.0
+2172,01/06/2016,Europe,Italy,2583.0
+2173,01/06/2016,Europe,Russia,2939.0
+2174,01/06/2016,Europe,the United Kingdom,5893.0
+2175,01/06/2016,Asia,China,28653.0
+2176,01/06/2016,Asia,India,4660.0
+2181,01/06/2016,Europe,France,778.0
+2199,01/07/2016,Europe,Germany,6008.0
+2200,01/07/2016,Europe,Italy,3257.0
+2201,01/07/2016,Europe,Russia,3415.0
+2202,01/07/2016,Europe,the United Kingdom,7898.0
+2203,01/07/2016,Asia,China,36456.0
+2204,01/07/2016,Asia,India,4783.0
+2209,01/07/2016,Europe,France,1200.0
+2227,01/08/2016,Europe,Germany,6869.0
+2228,01/08/2016,Europe,Italy,6507.0
+2229,01/08/2016,Europe,Russia,3034.0
+2230,01/08/2016,Europe,the United Kingdom,8852.0
+2231,01/08/2016,Asia,China,36217.0
+2232,01/08/2016,Asia,India,4175.0
+2237,01/08/2016,Europe,France,2322.0
+2255,01/09/2016,Europe,Germany,7826.0
+2256,01/09/2016,Europe,Italy,3172.0
+2257,01/09/2016,Europe,Russia,2990.0
+2258,01/09/2016,Europe,the United Kingdom,7797.0
+2259,01/09/2016,Asia,China,29242.0
+2260,01/09/2016,Asia,India,5009.0
+2265,01/09/2016,Europe,France,1765.0
+2283,01/10/2016,Europe,Germany,13061.0
+2284,01/10/2016,Europe,Italy,4122.0
+2285,01/10/2016,Europe,Russia,4387.0
+2286,01/10/2016,Europe,the United Kingdom,9111.0
+2287,01/10/2016,Asia,China,29444.0
+2288,01/10/2016,Asia,India,6301.0
+2293,01/10/2016,Europe,France,3565.0
+2311,01/11/2016,Europe,Germany,10759.0
+2312,01/11/2016,Europe,Italy,4987.0
+2313,01/11/2016,Europe,Russia,4750.0
+2314,01/11/2016,Europe,the United Kingdom,8073.0
+2315,01/11/2016,Asia,China,18954.0
+2316,01/11/2016,Asia,India,6895.0
+2321,01/11/2016,Europe,France,2678.0
+2339,01/12/2016,Europe,Germany,7938.0
+2340,01/12/2016,Europe,Italy,11171.0
+2341,01/12/2016,Europe,Russia,5560.0
+2342,01/12/2016,Europe,the United Kingdom,8576.0
+2343,01/12/2016,Asia,China,16249.0
+2344,01/12/2016,Asia,India,9691.0
+2349,01/12/2016,Europe,France,4715.0
+2367,01/01/2017,Europe,Germany,7803.0
+2368,01/01/2017,Europe,Italy,12079.0
+2369,01/01/2017,Europe,Russia,6874.0
+2370,01/01/2017,Europe,the United Kingdom,8630.0
+2371,01/01/2017,Asia,China,30669.0
+2372,01/01/2017,Asia,India,6043.0
+2377,01/01/2017,Europe,France,4868.0
+2395,01/02/2017,Europe,Germany,8874.0
+2396,01/02/2017,Europe,Italy,11215.0
+2397,01/02/2017,Europe,Russia,5113.0
+2398,01/02/2017,Europe,the United Kingdom,10395.0
+2399,01/02/2017,Asia,China,24263.0
+2400,01/02/2017,Asia,India,6105.0
+2405,01/02/2017,Europe,France,6785.0
+2423,01/03/2017,Europe,Germany,10216.0
+2424,01/03/2017,Europe,Italy,9900.0
+2425,01/03/2017,Europe,Russia,6413.0
+2426,01/03/2017,Europe,the United Kingdom,10063.0
+2427,01/03/2017,Asia,China,18203.0
+2428,01/03/2017,Asia,India,5008.0
+2433,01/03/2017,Europe,France,5192.0
+2451,01/04/2017,Europe,Germany,11172.0
+2452,01/04/2017,Europe,Italy,8601.0
+2453,01/04/2017,Europe,Russia,5400.0
+2454,01/04/2017,Europe,the United Kingdom,9417.0
+2455,01/04/2017,Asia,China,20975.0
+2456,01/04/2017,Asia,India,5362.0
+2461,01/04/2017,Europe,France,4938.0
+2479,01/05/2017,Europe,Germany,8742.0
+2480,01/05/2017,Europe,Italy,3131.0
+2481,01/05/2017,Europe,Russia,3564.0
+2482,01/05/2017,Europe,the United Kingdom,7151.0
+2483,01/05/2017,Asia,China,23225.0
+2484,01/05/2017,Asia,India,8092.0
+2489,01/05/2017,Europe,France,2161.0
+2507,01/06/2017,Europe,Germany,6885.0
+2508,01/06/2017,Europe,Italy,2768.0
+2509,01/06/2017,Europe,Russia,3262.0
+2510,01/06/2017,Europe,the United Kingdom,6081.0
+2511,01/06/2017,Asia,China,24160.0
+2512,01/06/2017,Asia,India,6919.0
+2517,01/06/2017,Europe,France,701.0
+2535,01/07/2017,Europe,Germany,6830.0
+2536,01/07/2017,Europe,Italy,3698.0
+2537,01/07/2017,Europe,Russia,4144.0
+2538,01/07/2017,Europe,the United Kingdom,7705.0
+2539,01/07/2017,Asia,China,34276.0
+2540,01/07/2017,Asia,India,5386.0
+2545,01/07/2017,Europe,France,1504.0
+2563,01/08/2017,Europe,Germany,6916.0
+2564,01/08/2017,Europe,Italy,7227.0
+2565,01/08/2017,Europe,Russia,4166.0
+2566,01/08/2017,Europe,the United Kingdom,8565.0
+2567,01/08/2017,Asia,China,33743.0
+2568,01/08/2017,Asia,India,6024.0
+2573,01/08/2017,Europe,France,2695.0
+2591,01/09/2017,Europe,Germany,8793.0
+2592,01/09/2017,Europe,Italy,3577.0
+2593,01/09/2017,Europe,Russia,3522.0
+2594,01/09/2017,Europe,the United Kingdom,7499.0
+2595,01/09/2017,Asia,China,27214.0
+2596,01/09/2017,Asia,India,6788.0
+2601,01/09/2017,Europe,France,1515.0
+2619,01/10/2017,Europe,Germany,15007.0
+2620,01/10/2017,Europe,Italy,4898.0
+2621,01/10/2017,Europe,Russia,5485.0
+2622,01/10/2017,Europe,the United Kingdom,9173.0
+2623,01/10/2017,Asia,China,28689.0
+2624,01/10/2017,Asia,India,7414.0
+2629,01/10/2017,Europe,France,3170.0
+2647,01/11/2017,Europe,Germany,11829.0
+2648,01/11/2017,Europe,Italy,7017.0
+2649,01/11/2017,Europe,Russia,6421.0
+2650,01/11/2017,Europe,the United Kingdom,9579.0
+2651,01/11/2017,Asia,China,21195.0
+2652,01/11/2017,Asia,India,7231.0
+2657,01/11/2017,Europe,France,3345.0
+2675,01/12/2017,Europe,Germany,9042.0
+2676,01/12/2017,Europe,Italy,14756.0
+2677,01/12/2017,Europe,Russia,7567.0
+2678,01/12/2017,Europe,the United Kingdom,9719.0
+2679,01/12/2017,Asia,China,19918.0
+2680,01/12/2017,Asia,India,12647.0
+2685,01/12/2017,Europe,France,5491.0
+2703,01/01/2018,Europe,Germany,8329.0
+2704,01/01/2018,Europe,Italy,14329.0
+2705,01/01/2018,Europe,Russia,9595.0
+2706,01/01/2018,Europe,the United Kingdom,9442.0
+2707,01/01/2018,Asia,China,25830.0
+2708,01/01/2018,Asia,India,8481.0
+2713,01/01/2018,Europe,France,6335.0
+2731,01/02/2018,Europe,Germany,9785.0
+2732,01/02/2018,Europe,Italy,13962.0
+2733,01/02/2018,Europe,Russia,6953.0
+2734,01/02/2018,Europe,the United Kingdom,11362.0
+2735,01/02/2018,Asia,China,33506.0
+2736,01/02/2018,Asia,India,6038.0
+2741,01/02/2018,Europe,France,8058.0
+2759,01/03/2018,Europe,Germany,14692.0
+2760,01/03/2018,Europe,Italy,13198.0
+2761,01/03/2018,Europe,Russia,7867.0
+2762,01/03/2018,Europe,the United Kingdom,11829.0
+2763,01/03/2018,Asia,China,13203.0
+2764,01/03/2018,Asia,India,4916.0
+2769,01/03/2018,Europe,France,6452.0
+2787,01/04/2018,Europe,Germany,9070.0
+2788,01/04/2018,Europe,Italy,8389.0
+2789,01/04/2018,Europe,Russia,6433.0
+2790,01/04/2018,Europe,the United Kingdom,10866.0
+2791,01/04/2018,Asia,China,15093.0
+2792,01/04/2018,Asia,India,5588.0
+2797,01/04/2018,Europe,France,5903.0
+2815,01/05/2018,Europe,Germany,10668.0
+2816,01/05/2018,Europe,Italy,3258.0
+2817,01/05/2018,Europe,Russia,3903.0
+2818,01/05/2018,Europe,the United Kingdom,7577.0
+2819,01/05/2018,Asia,China,16927.0
+2820,01/05/2018,Asia,India,8711.0
+2825,01/05/2018,Europe,France,2555.0
+2843,01/06/2018,Europe,Germany,5283.0
+2844,01/06/2018,Europe,Italy,3236.0
+2845,01/06/2018,Europe,Russia,3646.0
+2846,01/06/2018,Europe,the United Kingdom,6459.0
+2847,01/06/2018,Asia,China,22853.0
+2848,01/06/2018,Asia,India,7348.0
+2853,01/06/2018,Europe,France,1057.0
+2871,01/07/2018,Europe,Germany,6932.0
+2872,01/07/2018,Europe,Italy,4644.0
+2873,01/07/2018,Europe,Russia,4370.0
+2874,01/07/2018,Europe,the United Kingdom,8421.0
+2875,01/07/2018,Asia,China,33227.0
+2876,01/07/2018,Asia,India,5694.0
+2881,01/07/2018,Europe,France,2043.0
+2899,01/08/2018,Europe,Germany,6382.0
+2900,01/08/2018,Europe,Italy,8771.0
+2901,01/08/2018,Europe,Russia,4525.0
+2902,01/08/2018,Europe,the United Kingdom,9249.0
+2903,01/08/2018,Asia,China,33472.0
+2904,01/08/2018,Asia,India,4299.0
+2909,01/08/2018,Europe,France,2714.0
+2927,01/09/2018,Europe,Germany,9112.0
+2928,01/09/2018,Europe,Italy,4133.0
+2929,01/09/2018,Europe,Russia,3790.0
+2930,01/09/2018,Europe,the United Kingdom,8106.0
+2931,01/09/2018,Asia,China,27997.0
+2932,01/09/2018,Asia,India,5244.0
+2937,01/09/2018,Europe,France,1853.0
+2955,01/10/2018,Europe,Germany,13364.0
+2956,01/10/2018,Europe,Italy,5663.0
+2957,01/10/2018,Europe,Russia,5800.0
+2958,01/10/2018,Europe,the United Kingdom,9989.0
+2959,01/10/2018,Asia,China,25803.0
+2960,01/10/2018,Asia,India,7905.0
+2965,01/10/2018,Europe,France,3743.0
+2983,01/11/2018,Europe,Germany,13043.0
+2984,01/11/2018,Europe,Italy,7927.0
+2985,01/11/2018,Europe,Russia,6901.0
+2986,01/11/2018,Europe,the United Kingdom,10518.0
+2987,01/11/2018,Asia,China,18465.0
+2988,01/11/2018,Asia,India,11590.0
+2993,01/11/2018,Europe,France,3349.0
+3011,01/12/2018,Europe,Germany,10872.0
+3012,01/12/2018,Europe,Italy,17787.0
+3013,01/12/2018,Europe,Russia,7152.0
+3014,01/12/2018,Europe,the United Kingdom,10784.0
+3015,01/12/2018,Asia,China,16740.0
+3016,01/12/2018,Asia,India,14660.0
+3021,01/12/2018,Europe,France,6414.0
+3039,01/01/2019,Europe,Germany,9819.0
+3040,01/01/2019,Europe,Italy,16768.0
+3041,01/01/2019,Europe,Russia,9668.0
+3042,01/01/2019,Europe,the United Kingdom,10175.0
+3043,01/01/2019,Asia,China,25804.0
+3044,01/01/2019,Asia,India,11633.0
+3049,01/01/2019,Europe,France,7153.0
+3067,01/02/2019,Europe,Germany,11140.0
+3068,01/02/2019,Europe,Italy,17795.0
+3069,01/02/2019,Europe,Russia,7334.0
+3070,01/02/2019,Europe,the United Kingdom,13564.0
+3071,01/02/2019,Asia,China,31285.0
+3072,01/02/2019,Asia,India,12584.0
+3077,01/02/2019,Europe,France,10730.0
+3095,01/03/2019,Europe,Germany,16320.0
+3096,01/03/2019,Europe,Italy,18285.0
+3097,01/03/2019,Europe,Russia,9282.0
+3098,01/03/2019,Europe,the United Kingdom,12377.0
+3099,01/03/2019,Asia,China,19479.0
+3100,01/03/2019,Asia,India,11836.0
+3105,01/03/2019,Europe,France,8809.0
+3123,01/04/2019,Europe,Germany,17583.0
+3124,01/04/2019,Europe,Italy,15043.0
+3125,01/04/2019,Europe,Russia,6475.0
+3126,01/04/2019,Europe,the United Kingdom,12876.0
+3127,01/04/2019,Asia,China,18704.0
+3128,01/04/2019,Asia,India,12823.0
+3133,01/04/2019,Europe,France,7244.0
+3151,01/05/2019,Europe,Germany,7545.0
+3152,01/05/2019,Europe,Italy,3443.0
+3153,01/05/2019,Europe,Russia,5397.0
+3154,01/05/2019,Europe,the United Kingdom,8655.0
+3155,01/05/2019,Asia,China,21010.0
+3156,01/05/2019,Asia,India,17389.0
+3161,01/05/2019,Europe,France,2008.0
+3179,01/06/2019,Europe,Germany,6830.0
+3180,01/06/2019,Europe,Italy,4042.0
+3181,01/06/2019,Europe,Russia,4793.0
+3182,01/06/2019,Europe,the United Kingdom,7145.0
+3183,01/06/2019,Asia,China,23983.0
+3184,01/06/2019,Asia,India,15875.0
+3189,01/06/2019,Europe,France,1439.0
+3207,01/07/2019,Europe,Germany,8266.0
+3208,01/07/2019,Europe,Italy,5337.0
+3209,01/07/2019,Europe,Russia,5345.0
+3210,01/07/2019,Europe,the United Kingdom,8470.0
+3211,01/07/2019,Asia,China,32569.0
+3212,01/07/2019,Asia,India,11035.0
+3217,01/07/2019,Europe,France,2242.0
+3235,01/08/2019,Europe,Germany,7242.0
+3236,01/08/2019,Europe,Italy,11449.0
+3237,01/08/2019,Europe,Russia,5175.0
+3238,01/08/2019,Europe,the United Kingdom,9827.0
+3239,01/08/2019,Asia,China,32757.0
+3240,01/08/2019,Asia,India,11067.0
+3245,01/08/2019,Europe,France,3173.0
+3263,01/09/2019,Europe,Germany,8982.0
+3264,01/09/2019,Europe,Italy,5213.0
+3265,01/09/2019,Europe,Russia,4837.0
+3266,01/09/2019,Europe,the United Kingdom,7876.0
+3267,01/09/2019,Asia,China,24758.0
+3268,01/09/2019,Asia,India,11265.0
+3273,01/09/2019,Europe,France,1924.0
+3291,01/10/2019,Europe,Germany,13625.0
+3292,01/10/2019,Europe,Italy,6560.0
+3293,01/10/2019,Europe,Russia,7855.0
+3294,01/10/2019,Europe,the United Kingdom,11321.0
+3295,01/10/2019,Asia,China,21926.0
+3296,01/10/2019,Asia,India,15110.0
+3301,01/10/2019,Europe,France,3940.0
+3319,01/11/2019,Europe,Germany,12816.0
+3320,01/11/2019,Europe,Italy,11114.0
+3321,01/11/2019,Europe,Russia,8171.0
+3322,01/11/2019,Europe,the United Kingdom,11936.0
+3323,01/11/2019,Asia,China,15600.0
+3324,01/11/2019,Asia,India,14430.0
+3329,01/11/2019,Europe,France,4229.0
+3347,01/12/2019,Europe,Germany,11393.0
+3348,01/12/2019,Europe,Italy,21294.0
+3349,01/12/2019,Europe,Russia,9037.0
+3350,01/12/2019,Europe,the United Kingdom,11977.0
+3351,01/12/2019,Asia,China,16154.0
+3352,01/12/2019,Asia,India,20983.0
+3357,01/12/2019,Europe,France,6847.0
+3375,01/01/2020,Europe,Germany,9859.0
+3376,01/01/2020,Europe,Italy,20766.0
+3377,01/01/2020,Europe,Russia,12531.0
+3378,01/01/2020,Europe,the United Kingdom,10734.0
+3379,01/01/2020,Asia,China,31744.0
+3380,01/01/2020,Asia,India,13845.0
+3385,01/01/2020,Europe,France,6955.0
+3403,01/02/2020,Europe,Germany,11698.0
+3404,01/02/2020,Europe,Italy,19849.0
+3405,01/02/2020,Europe,Russia,9690.0
+3406,01/02/2020,Europe,the United Kingdom,14796.0
+3407,01/02/2020,Asia,China,1647.0
+3408,01/02/2020,Asia,India,15521.0
+3413,01/02/2020,Europe,France,10787.0
+3414,01/02/2020,Oceania,Australia,2040.0
+3415,01/02/2020,Americas,United States,4543.0
+3431,01/03/2020,Europe,Germany,6671.0
+3432,01/03/2020,Europe,Italy,3996.0
+3433,01/03/2020,Europe,Russia,6728.0
+3434,01/03/2020,Europe,the United Kingdom,7288.0
+3435,01/03/2020,Asia,China,498.0
+3436,01/03/2020,Asia,India,5496.0
+3441,01/03/2020,Europe,France,4042.0
+3442,01/03/2020,Oceania,Australia,1388.0
+3443,01/03/2020,Americas,United States,1820.0
+3459,01/04/2020,Europe,Germany,0.0
+3460,01/04/2020,Europe,Italy,0.0
+3461,01/04/2020,Europe,Russia,0.0
+3462,01/04/2020,Europe,the United Kingdom,0.0
+3463,01/04/2020,Asia,China,0.0
+3464,01/04/2020,Asia,India,1.0
+3469,01/04/2020,Europe,France,0.0
+3470,01/04/2020,Oceania,Australia,0.0
+3471,01/04/2020,Americas,United States,0.0
+3487,01/05/2020,Europe,Germany,11.0
+3488,01/05/2020,Europe,Italy,1.0
+3489,01/05/2020,Europe,Russia,0.0
+3490,01/05/2020,Europe,the United Kingdom,0.0
+3491,01/05/2020,Asia,China,0.0
+3492,01/05/2020,Asia,India,1.0
+3497,01/05/2020,Europe,France,1.0
+3498,01/05/2020,Oceania,Australia,0.0
+3499,01/05/2020,Americas,United States,0.0
+3515,01/06/2020,Europe,Germany,0.0
+3516,01/06/2020,Europe,Italy,0.0
+3517,01/06/2020,Europe,Russia,0.0
+3518,01/06/2020,Europe,the United Kingdom,1.0
+3519,01/06/2020,Asia,China,0.0
+3520,01/06/2020,Asia,India,0.0
+3525,01/06/2020,Europe,France,0.0
+3526,01/06/2020,Oceania,Australia,0.0
+3527,01/06/2020,Americas,United States,0.0
+3543,01/07/2020,Europe,Germany,133.0
+3544,01/07/2020,Europe,Italy,44.0
+3545,01/07/2020,Europe,Russia,52.0
+3546,01/07/2020,Europe,the United Kingdom,256.0
+3547,01/07/2020,Asia,China,16.0
+3548,01/07/2020,Asia,India,31.0
+3553,01/07/2020,Europe,France,58.0
+3554,01/07/2020,Oceania,Australia,17.0
+3555,01/07/2020,Americas,United States,189.0
+3571,01/08/2020,Europe,Germany,306.0
+3572,01/08/2020,Europe,Italy,513.0
+3573,01/08/2020,Europe,Russia,423.0
+3574,01/08/2020,Europe,the United Kingdom,715.0
+3575,01/08/2020,Asia,China,34.0
+3576,01/08/2020,Asia,India,115.0
+3581,01/08/2020,Europe,France,301.0
+3582,01/08/2020,Oceania,Australia,49.0
+3583,01/08/2020,Americas,United States,674.0
+3599,01/09/2020,Europe,Germany,362.0
+3600,01/09/2020,Europe,Italy,72.0
+3601,01/09/2020,Europe,Russia,2065.0
+3602,01/09/2020,Europe,the United Kingdom,628.0
+3603,01/09/2020,Asia,China,33.0
+3604,01/09/2020,Asia,India,308.0
+3609,01/09/2020,Europe,France,279.0
+3610,01/09/2020,Oceania,Australia,61.0
+3611,01/09/2020,Americas,United States,935.0
+3627,01/10/2020,Europe,Germany,949.0
+3628,01/10/2020,Europe,Italy,137.0
+3629,01/10/2020,Europe,Russia,5995.0
+3630,01/10/2020,Europe,the United Kingdom,1780.0
+3631,01/10/2020,Asia,China,41.0
+3632,01/10/2020,Asia,India,1396.0
+3637,01/10/2020,Europe,France,1093.0
+3638,01/10/2020,Oceania,Australia,160.0
+3639,01/10/2020,Americas,United States,1449.0
+3655,01/11/2020,Europe,Germany,2083.0
+3656,01/11/2020,Europe,Italy,267.0
+3657,01/11/2020,Europe,Russia,8580.0
+3658,01/11/2020,Europe,the United Kingdom,2091.0
+3659,01/11/2020,Asia,China,61.0
+3660,01/11/2020,Asia,India,7609.0
+3665,01/11/2020,Europe,France,517.0
+3666,01/11/2020,Oceania,Australia,209.0
+3667,01/11/2020,Americas,United States,2093.0
+3683,01/12/2020,Europe,Germany,4363.0
+3684,01/12/2020,Europe,Italy,1045.0
+3685,01/12/2020,Europe,Russia,15323.0
+3686,01/12/2020,Europe,the United Kingdom,14431.0
+3687,01/12/2020,Asia,China,171.0
+3688,01/12/2020,Asia,India,18637.0
+3693,01/12/2020,Europe,France,3998.0
+3694,01/12/2020,Oceania,Australia,607.0
+3695,01/12/2020,Americas,United States,3005.0
+0,01/01/2010,Europe,Unknown,11991.0
+1,01/01/2010,Asia,Unknown,5432.0
+2,01/01/2010,Africa,Unknown,350.0
+3,01/01/2010,Americas,Unknown,1289.0
+4,01/01/2010,Oceania,Unknown,703.0
+5,01/01/2010,the Middle East,Unknown,559.0
+6,01/02/2010,Europe,Unknown,11966.0
+7,01/02/2010,Asia,Unknown,5838.0
+8,01/02/2010,Africa,Unknown,303.0
+9,01/02/2010,Americas,Unknown,1618.0
+10,01/02/2010,Oceania,Unknown,585.0
+11,01/02/2010,the Middle East,Unknown,1038.0
+12,01/03/2010,Europe,Unknown,12069.0
+13,01/03/2010,Asia,Unknown,7079.0
+14,01/03/2010,Africa,Unknown,500.0
+15,01/03/2010,Americas,Unknown,1788.0
+16,01/03/2010,Oceania,Unknown,817.0
+17,01/03/2010,the Middle East,Unknown,601.0
+18,01/04/2010,Europe,Unknown,8241.0
+19,01/04/2010,Asia,Unknown,7507.0
+20,01/04/2010,Africa,Unknown,550.0
+21,01/04/2010,Americas,Unknown,1483.0
+22,01/04/2010,Oceania,Unknown,1092.0
+23,01/04/2010,the Middle East,Unknown,1226.0
+24,01/05/2010,Europe,Unknown,7154.0
+25,01/05/2010,Asia,Unknown,9599.0
+26,01/05/2010,Africa,Unknown,466.0
+27,01/05/2010,Americas,Unknown,1348.0
+28,01/05/2010,Oceania,Unknown,869.0
+29,01/05/2010,the Middle East,Unknown,593.0
+30,01/06/2010,Europe,Unknown,5854.0
+31,01/06/2010,Asia,Unknown,6762.0
+32,01/06/2010,Africa,Unknown,308.0
+33,01/06/2010,Americas,Unknown,1215.0
+34,01/06/2010,Oceania,Unknown,917.0
+35,01/06/2010,the Middle East,Unknown,685.0
+36,01/07/2010,Europe,Unknown,8759.0
+37,01/07/2010,Asia,Unknown,7334.0
+38,01/07/2010,Africa,Unknown,467.0
+39,01/07/2010,Americas,Unknown,1433.0
+40,01/07/2010,Oceania,Unknown,1141.0
+41,01/07/2010,the Middle East,Unknown,1879.0
+42,01/08/2010,Europe,Unknown,8991.0
+43,01/08/2010,Asia,Unknown,7965.0
+44,01/08/2010,Africa,Unknown,345.0
+45,01/08/2010,Americas,Unknown,1310.0
+46,01/08/2010,Oceania,Unknown,880.0
+47,01/08/2010,the Middle East,Unknown,421.0
+48,01/09/2010,Europe,Unknown,8685.0
+49,01/09/2010,Asia,Unknown,8263.0
+50,01/09/2010,Africa,Unknown,566.0
+51,01/09/2010,Americas,Unknown,1480.0
+52,01/09/2010,Oceania,Unknown,1169.0
+53,01/09/2010,the Middle East,Unknown,1450.0
+54,01/10/2010,Europe,Unknown,11611.0
+55,01/10/2010,Asia,Unknown,10241.0
+56,01/10/2010,Africa,Unknown,479.0
+57,01/10/2010,Americas,Unknown,1764.0
+58,01/10/2010,Oceania,Unknown,958.0
+59,01/10/2010,the Middle East,Unknown,641.0
+60,01/11/2010,Europe,Unknown,12651.0
+61,01/11/2010,Asia,Unknown,10211.0
+62,01/11/2010,Africa,Unknown,520.0
+63,01/11/2010,Americas,Unknown,1762.0
+64,01/11/2010,Oceania,Unknown,821.0
+65,01/11/2010,the Middle East,Unknown,1620.0
+66,01/12/2010,Europe,Unknown,12662.0
+67,01/12/2010,Asia,Unknown,8934.0
+68,01/12/2010,Africa,Unknown,774.0
+69,01/12/2010,Americas,Unknown,2111.0
+70,01/12/2010,Oceania,Unknown,804.0
+71,01/12/2010,the Middle East,Unknown,916.0
+72,01/01/2011,Europe,Unknown,13414.0
+73,01/01/2011,Asia,Unknown,6075.0
+74,01/01/2011,Africa,Unknown,381.0
+75,01/01/2011,Americas,Unknown,1734.0
+76,01/01/2011,Oceania,Unknown,833.0
+77,01/01/2011,the Middle East,Unknown,669.0
+78,01/02/2011,Europe,Unknown,14115.0
+79,01/02/2011,Asia,Unknown,6763.0
+80,01/02/2011,Africa,Unknown,325.0
+81,01/02/2011,Americas,Unknown,1760.0
+82,01/02/2011,Oceania,Unknown,786.0
+83,01/02/2011,the Middle East,Unknown,1139.0
+84,01/03/2011,Europe,Unknown,12523.0
+85,01/03/2011,Asia,Unknown,7419.0
+86,01/03/2011,Africa,Unknown,568.0
+87,01/03/2011,Americas,Unknown,2089.0
+88,01/03/2011,Oceania,Unknown,1125.0
+89,01/03/2011,the Middle East,Unknown,635.0
+90,01/04/2011,Europe,Unknown,13084.0
+91,01/04/2011,Asia,Unknown,8400.0
+92,01/04/2011,Africa,Unknown,773.0
+93,01/04/2011,Americas,Unknown,2158.0
+94,01/04/2011,Oceania,Unknown,1469.0
+95,01/04/2011,the Middle East,Unknown,1073.0
+96,01/05/2011,Europe,Unknown,7774.0
+97,01/05/2011,Asia,Unknown,8808.0
+98,01/05/2011,Africa,Unknown,439.0
+99,01/05/2011,Americas,Unknown,1639.0
+100,01/05/2011,Oceania,Unknown,1091.0
+101,01/05/2011,the Middle East,Unknown,836.0
+102,01/06/2011,Europe,Unknown,6067.0
+103,01/06/2011,Asia,Unknown,7977.0
+104,01/06/2011,Africa,Unknown,454.0
+105,01/06/2011,Americas,Unknown,1563.0
+106,01/06/2011,Oceania,Unknown,1078.0
+107,01/06/2011,the Middle East,Unknown,1208.0
+108,01/07/2011,Europe,Unknown,9766.0
+109,01/07/2011,Asia,Unknown,8571.0
+110,01/07/2011,Africa,Unknown,683.0
+111,01/07/2011,Americas,Unknown,1884.0
+112,01/07/2011,Oceania,Unknown,1542.0
+113,01/07/2011,the Middle East,Unknown,2383.0
+114,01/08/2011,Europe,Unknown,9409.0
+115,01/08/2011,Asia,Unknown,8543.0
+116,01/08/2011,Africa,Unknown,421.0
+117,01/08/2011,Americas,Unknown,1790.0
+118,01/08/2011,Oceania,Unknown,1224.0
+119,01/08/2011,the Middle East,Unknown,809.0
+120,01/09/2011,Europe,Unknown,9018.0
+121,01/09/2011,Asia,Unknown,9309.0
+122,01/09/2011,Africa,Unknown,504.0
+123,01/09/2011,Americas,Unknown,1750.0
+124,01/09/2011,Oceania,Unknown,1522.0
+125,01/09/2011,the Middle East,Unknown,1737.0
+126,01/10/2011,Europe,Unknown,13697.0
+127,01/10/2011,Asia,Unknown,11660.0
+128,01/10/2011,Africa,Unknown,530.0
+129,01/10/2011,Americas,Unknown,2032.0
+130,01/10/2011,Oceania,Unknown,1337.0
+131,01/10/2011,the Middle East,Unknown,826.0
+132,01/11/2011,Europe,Unknown,13120.0
+133,01/11/2011,Asia,Unknown,11074.0
+134,01/11/2011,Africa,Unknown,483.0
+135,01/11/2011,Americas,Unknown,2401.0
+136,01/11/2011,Oceania,Unknown,1015.0
+137,01/11/2011,the Middle East,Unknown,2102.0
+138,01/12/2011,Europe,Unknown,13799.0
+139,01/12/2011,Asia,Unknown,10460.0
+140,01/12/2011,Africa,Unknown,891.0
+141,01/12/2011,Americas,Unknown,2854.0
+142,01/12/2011,Oceania,Unknown,1174.0
+143,01/12/2011,the Middle East,Unknown,1153.0
+144,01/01/2012,Europe,Unknown,14777.0
+145,01/01/2012,Asia,Unknown,6118.0
+146,01/01/2012,Africa,Unknown,386.0
+147,01/01/2012,Americas,Unknown,2087.0
+148,01/01/2012,Oceania,Unknown,1184.0
+149,01/01/2012,the Middle East,Unknown,1303.0
+150,01/02/2012,Europe,Unknown,16058.0
+151,01/02/2012,Asia,Unknown,6693.0
+152,01/02/2012,Africa,Unknown,359.0
+153,01/02/2012,Americas,Unknown,1839.0
+154,01/02/2012,Oceania,Unknown,986.0
+155,01/02/2012,the Middle East,Unknown,1242.0
+156,01/03/2012,Europe,Unknown,13425.0
+157,01/03/2012,Asia,Unknown,8041.0
+158,01/03/2012,Africa,Unknown,487.0
+159,01/03/2012,Americas,Unknown,2147.0
+160,01/03/2012,Oceania,Unknown,1292.0
+161,01/03/2012,the Middle East,Unknown,1799.0
+162,01/04/2012,Europe,Unknown,12935.0
+163,01/04/2012,Asia,Unknown,9328.0
+164,01/04/2012,Africa,Unknown,740.0
+165,01/04/2012,Americas,Unknown,2303.0
+166,01/04/2012,Oceania,Unknown,1722.0
+167,01/04/2012,the Middle East,Unknown,1602.0
+168,01/05/2012,Europe,Unknown,7655.0
+169,01/05/2012,Asia,Unknown,7243.0
+170,01/05/2012,Africa,Unknown,566.0
+171,01/05/2012,Americas,Unknown,1751.0
+172,01/05/2012,Oceania,Unknown,1221.0
+173,01/05/2012,the Middle East,Unknown,1233.0
+174,01/06/2012,Europe,Unknown,6580.0
+175,01/06/2012,Asia,Unknown,8953.0
+176,01/06/2012,Africa,Unknown,639.0
+177,01/06/2012,Americas,Unknown,1831.0
+178,01/06/2012,Oceania,Unknown,1437.0
+179,01/06/2012,the Middle East,Unknown,2533.0
+180,01/07/2012,Europe,Unknown,10816.0
+181,01/07/2012,Asia,Unknown,7914.0
+182,01/07/2012,Africa,Unknown,667.0
+183,01/07/2012,Americas,Unknown,2209.0
+184,01/07/2012,Oceania,Unknown,1673.0
+185,01/07/2012,the Middle East,Unknown,2107.0
+186,01/08/2012,Europe,Unknown,8981.0
+187,01/08/2012,Asia,Unknown,10050.0
+188,01/08/2012,Africa,Unknown,524.0
+189,01/08/2012,Americas,Unknown,2146.0
+190,01/08/2012,Oceania,Unknown,1446.0
+191,01/08/2012,the Middle East,Unknown,2712.0
+192,01/09/2012,Europe,Unknown,9556.0
+193,01/09/2012,Asia,Unknown,9397.0
+194,01/09/2012,Africa,Unknown,605.0
+195,01/09/2012,Americas,Unknown,2063.0
+196,01/09/2012,Oceania,Unknown,1805.0
+197,01/09/2012,the Middle East,Unknown,1680.0
+198,01/10/2012,Europe,Unknown,13150.0
+199,01/10/2012,Asia,Unknown,10375.0
+200,01/10/2012,Africa,Unknown,566.0
+201,01/10/2012,Americas,Unknown,2910.0
+202,01/10/2012,Oceania,Unknown,1524.0
+203,01/10/2012,the Middle East,Unknown,2640.0
+204,01/11/2012,Europe,Unknown,12602.0
+205,01/11/2012,Asia,Unknown,10708.0
+206,01/11/2012,Africa,Unknown,487.0
+207,01/11/2012,Americas,Unknown,2287.0
+208,01/11/2012,Oceania,Unknown,1202.0
+209,01/11/2012,the Middle East,Unknown,1399.0
+210,01/12/2012,Europe,Unknown,15212.0
+211,01/12/2012,Asia,Unknown,11588.0
+212,01/12/2012,Africa,Unknown,1069.0
+213,01/12/2012,Americas,Unknown,3201.0
+214,01/12/2012,Oceania,Unknown,1334.0
+215,01/12/2012,the Middle East,Unknown,1593.0
+216,01/01/2013,Europe,Unknown,16229.0
+217,01/01/2013,Asia,Unknown,7083.0
+218,01/01/2013,Africa,Unknown,536.0
+219,01/01/2013,Americas,Unknown,2396.0
+220,01/01/2013,Oceania,Unknown,1530.0
+221,01/01/2013,the Middle East,Unknown,2312.0
+222,01/02/2013,Europe,Unknown,16360.0
+223,01/02/2013,Asia,Unknown,7706.0
+224,01/02/2013,Africa,Unknown,386.0
+225,01/02/2013,Americas,Unknown,2541.0
+226,01/02/2013,Oceania,Unknown,983.0
+227,01/02/2013,the Middle East,Unknown,1949.0
+228,01/03/2013,Europe,Unknown,16953.0
+229,01/03/2013,Asia,Unknown,10108.0
+230,01/03/2013,Africa,Unknown,666.0
+231,01/03/2013,Americas,Unknown,3069.0
+232,01/03/2013,Oceania,Unknown,1508.0
+233,01/03/2013,the Middle East,Unknown,2404.0
+234,01/04/2013,Europe,Unknown,14217.0
+235,01/04/2013,Asia,Unknown,11053.0
+236,01/04/2013,Africa,Unknown,752.0
+237,01/04/2013,Americas,Unknown,2809.0
+238,01/04/2013,Oceania,Unknown,1760.0
+239,01/04/2013,the Middle East,Unknown,2434.0
+240,01/05/2013,Europe,Unknown,8886.0
+241,01/05/2013,Asia,Unknown,10382.0
+242,01/05/2013,Africa,Unknown,694.0
+243,01/05/2013,Americas,Unknown,2416.0
+244,01/05/2013,Oceania,Unknown,1431.0
+245,01/05/2013,the Middle East,Unknown,1772.0
+246,01/06/2013,Europe,Unknown,7994.0
+247,01/06/2013,Asia,Unknown,11392.0
+248,01/06/2013,Africa,Unknown,1046.0
+249,01/06/2013,Americas,Unknown,2354.0
+250,01/06/2013,Oceania,Unknown,1742.0
+251,01/06/2013,the Middle East,Unknown,4500.0
+252,01/07/2013,Europe,Unknown,11542.0
+253,01/07/2013,Asia,Unknown,10433.0
+254,01/07/2013,Africa,Unknown,458.0
+255,01/07/2013,Americas,Unknown,2486.0
+256,01/07/2013,Oceania,Unknown,1788.0
+257,01/07/2013,the Middle East,Unknown,1220.0
+258,01/08/2013,Europe,Unknown,9997.0
+259,01/08/2013,Asia,Unknown,13060.0
+260,01/08/2013,Africa,Unknown,788.0
+261,01/08/2013,Americas,Unknown,2312.0
+262,01/08/2013,Oceania,Unknown,1575.0
+263,01/08/2013,the Middle East,Unknown,5573.0
+264,01/09/2013,Europe,Unknown,11147.0
+265,01/09/2013,Asia,Unknown,11974.0
+266,01/09/2013,Africa,Unknown,818.0
+267,01/09/2013,Americas,Unknown,2392.0
+268,01/09/2013,Oceania,Unknown,1979.0
+269,01/09/2013,the Middle East,Unknown,2333.0
+270,01/09/2013,UN passport holders and others,Unknown,23.0
+271,01/10/2013,Europe,Unknown,14663.0
+272,01/10/2013,Asia,Unknown,13854.0
+273,01/10/2013,Africa,Unknown,656.0
+274,01/10/2013,Americas,Unknown,3106.0
+275,01/10/2013,Oceania,Unknown,1580.0
+276,01/10/2013,the Middle East,Unknown,3826.0
+277,01/10/2013,UN passport holders and others,Unknown,35.0
+278,01/11/2013,Europe,Unknown,14338.0
+279,01/11/2013,Asia,Unknown,12752.0
+280,01/11/2013,Africa,Unknown,462.0
+281,01/11/2013,Americas,Unknown,3023.0
+282,01/11/2013,Oceania,Unknown,1266.0
+283,01/11/2013,the Middle East,Unknown,1569.0
+284,01/11/2013,UN passport holders and others,Unknown,22.0
+285,01/12/2013,Europe,Unknown,16820.0
+286,01/12/2013,Asia,Unknown,16223.0
+287,01/12/2013,Africa,Unknown,1009.0
+288,01/12/2013,Americas,Unknown,4066.0
+289,01/12/2013,Oceania,Unknown,1619.0
+290,01/12/2013,the Middle East,Unknown,2158.0
+291,01/12/2013,UN passport holders and others,Unknown,43.0
+292,01/01/2014,Europe,Unknown,16495.0
+293,01/01/2014,Asia,Unknown,9919.0
+294,01/01/2014,Africa,Unknown,532.0
+295,01/01/2014,Americas,Unknown,3903.0
+296,01/01/2014,Oceania,Unknown,1768.0
+297,01/01/2014,the Middle East,Unknown,2809.0
+298,01/01/2014,UN passport holders and others,Unknown,32.0
+299,01/02/2014,Europe,Unknown,18237.0
+300,01/02/2014,Asia,Unknown,10885.0
+301,01/02/2014,Africa,Unknown,458.0
+302,01/02/2014,Americas,Unknown,2914.0
+303,01/02/2014,Oceania,Unknown,1072.0
+304,01/02/2014,the Middle East,Unknown,2767.0
+305,01/02/2014,UN passport holders and others,Unknown,20.0
+306,01/03/2014,Europe,Unknown,15672.0
+307,01/03/2014,Asia,Unknown,13124.0
+308,01/03/2014,Africa,Unknown,619.0
+309,01/03/2014,Americas,Unknown,3746.0
+310,01/03/2014,Oceania,Unknown,1440.0
+311,01/03/2014,the Middle East,Unknown,2809.0
+312,01/03/2014,UN passport holders and others,Unknown,42.0
+313,01/04/2014,Europe,Unknown,16154.0
+314,01/04/2014,Asia,Unknown,13556.0
+315,01/04/2014,Africa,Unknown,820.0
+316,01/04/2014,Americas,Unknown,3906.0
+317,01/04/2014,Oceania,Unknown,2442.0
+318,01/04/2014,the Middle East,Unknown,2918.0
+319,01/04/2014,UN passport holders and others,Unknown,23.0
+320,01/05/2014,Europe,Unknown,9083.0
+321,01/05/2014,Asia,Unknown,14438.0
+322,01/05/2014,Africa,Unknown,647.0
+323,01/05/2014,Americas,Unknown,3000.0
+324,01/05/2014,Oceania,Unknown,1619.0
+325,01/05/2014,the Middle East,Unknown,2707.0
+326,01/05/2014,UN passport holders and others,Unknown,44.0
+327,01/06/2014,Europe,Unknown,8145.0
+328,01/06/2014,Asia,Unknown,14091.0
+329,01/06/2014,Africa,Unknown,712.0
+330,01/06/2014,Americas,Unknown,2788.0
+331,01/06/2014,Oceania,Unknown,1828.0
+332,01/06/2014,the Middle East,Unknown,3776.0
+333,01/06/2014,UN passport holders and others,Unknown,21.0
+334,01/07/2014,Europe,Unknown,12588.0
+335,01/07/2014,Asia,Unknown,12639.0
+336,01/07/2014,Africa,Unknown,688.0
+337,01/07/2014,Americas,Unknown,2748.0
+338,01/07/2014,Oceania,Unknown,2150.0
+339,01/07/2014,the Middle East,Unknown,2240.0
+340,01/07/2014,UN passport holders and others,Unknown,6.0
+341,01/08/2014,Europe,Unknown,11658.0
+342,01/08/2014,Asia,Unknown,13385.0
+343,01/08/2014,Africa,Unknown,818.0
+344,01/08/2014,Americas,Unknown,2857.0
+345,01/08/2014,Oceania,Unknown,1542.0
+346,01/08/2014,the Middle East,Unknown,5803.0
+347,01/08/2014,UN passport holders and others,Unknown,24.0
+348,01/09/2014,Europe,Unknown,11034.0
+349,01/09/2014,Asia,Unknown,13547.0
+350,01/09/2014,Africa,Unknown,770.0
+351,01/09/2014,Americas,Unknown,2995.0
+352,01/09/2014,Oceania,Unknown,2224.0
+353,01/09/2014,the Middle East,Unknown,2812.0
+354,01/09/2014,UN passport holders and others,Unknown,27.0
+355,01/10/2014,Europe,Unknown,15587.0
+356,01/10/2014,Asia,Unknown,14250.0
+357,01/10/2014,Africa,Unknown,676.0
+358,01/10/2014,Americas,Unknown,3883.0
+359,01/10/2014,Oceania,Unknown,1671.0
+360,01/10/2014,the Middle East,Unknown,3926.0
+361,01/10/2014,UN passport holders and others,Unknown,30.0
+362,01/11/2014,Europe,Unknown,14491.0
+363,01/11/2014,Asia,Unknown,12368.0
+364,01/11/2014,Africa,Unknown,437.0
+365,01/11/2014,Americas,Unknown,3178.0
+366,01/11/2014,Oceania,Unknown,1373.0
+367,01/11/2014,the Middle East,Unknown,1754.0
+368,01/11/2014,UN passport holders and others,Unknown,34.0
+369,01/12/2014,Europe,Unknown,18289.0
+370,01/12/2014,Asia,Unknown,16616.0
+371,01/12/2014,Africa,Unknown,972.0
+372,01/12/2014,Americas,Unknown,5126.0
+373,01/12/2014,Oceania,Unknown,1685.0
+374,01/12/2014,the Middle East,Unknown,2880.0
+375,01/12/2014,UN passport holders and others,Unknown,24.0
+376,01/01/2015,Europe,Unknown,18779.0
+377,01/01/2015,Asia,Unknown,10140.0
+378,01/01/2015,Africa,Unknown,605.0
+379,01/01/2015,Americas,Unknown,3689.0
+380,01/01/2015,Oceania,Unknown,1780.0
+381,01/01/2015,the Middle East,Unknown,3885.0
+382,01/01/2015,UN passport holders and others,Unknown,38.0
+383,01/02/2015,Europe,Unknown,19291.0
+384,01/02/2015,Asia,Unknown,10226.0
+385,01/02/2015,Africa,Unknown,395.0
+386,01/02/2015,Americas,Unknown,3782.0
+387,01/02/2015,Oceania,Unknown,1225.0
+388,01/02/2015,the Middle East,Unknown,2510.0
+389,01/02/2015,UN passport holders and others,Unknown,28.0
+390,01/03/2015,Europe,Unknown,18414.0
+391,01/03/2015,Asia,Unknown,13799.0
+392,01/03/2015,Africa,Unknown,707.0
+393,01/03/2015,Americas,Unknown,4504.0
+394,01/03/2015,Oceania,Unknown,1633.0
+395,01/03/2015,the Middle East,Unknown,4120.0
+396,01/03/2015,UN passport holders and others,Unknown,23.0
+397,01/04/2015,Europe,Unknown,15764.0
+398,01/04/2015,Asia,Unknown,13490.0
+399,01/04/2015,Africa,Unknown,937.0
+400,01/04/2015,Americas,Unknown,4578.0
+401,01/04/2015,Oceania,Unknown,2190.0
+402,01/04/2015,the Middle East,Unknown,3408.0
+403,01/04/2015,UN passport holders and others,Unknown,32.0
+404,01/05/2015,Europe,Unknown,10134.0
+405,01/05/2015,Asia,Unknown,14699.0
+406,01/05/2015,Africa,Unknown,716.0
+407,01/05/2015,Americas,Unknown,3683.0
+408,01/05/2015,Oceania,Unknown,1866.0
+409,01/05/2015,the Middle East,Unknown,2740.0
+410,01/05/2015,UN passport holders and others,Unknown,31.0
+411,01/06/2015,Europe,Unknown,8158.0
+412,01/06/2015,Asia,Unknown,12746.0
+413,01/06/2015,Africa,Unknown,754.0
+414,01/06/2015,Americas,Unknown,3004.0
+415,01/06/2015,Oceania,Unknown,2017.0
+416,01/06/2015,the Middle East,Unknown,2341.0
+417,01/06/2015,UN passport holders and others,Unknown,15.0
+418,01/07/2015,Europe,Unknown,14189.0
+419,01/07/2015,Asia,Unknown,14234.0
+420,01/07/2015,Africa,Unknown,901.0
+421,01/07/2015,Americas,Unknown,3458.0
+422,01/07/2015,Oceania,Unknown,2202.0
+423,01/07/2015,the Middle East,Unknown,4782.0
+424,01/07/2015,UN passport holders and others,Unknown,16.0
+425,01/08/2015,Europe,Unknown,13266.0
+426,01/08/2015,Asia,Unknown,14880.0
+427,01/08/2015,Africa,Unknown,975.0
+428,01/08/2015,Americas,Unknown,3179.0
+429,01/08/2015,Oceania,Unknown,1659.0
+430,01/08/2015,the Middle East,Unknown,5215.0
+431,01/08/2015,UN passport holders and others,Unknown,38.0
+432,01/09/2015,Europe,Unknown,12391.0
+433,01/09/2015,Asia,Unknown,14781.0
+434,01/09/2015,Africa,Unknown,818.0
+435,01/09/2015,Americas,Unknown,3423.0
+436,01/09/2015,Oceania,Unknown,2141.0
+437,01/09/2015,the Middle East,Unknown,4674.0
+438,01/09/2015,UN passport holders and others,Unknown,22.0
+439,01/10/2015,Europe,Unknown,17372.0
+440,01/10/2015,Asia,Unknown,15069.0
+441,01/10/2015,Africa,Unknown,598.0
+442,01/10/2015,Americas,Unknown,3614.0
+443,01/10/2015,Oceania,Unknown,1609.0
+444,01/10/2015,the Middle East,Unknown,2152.0
+445,01/10/2015,UN passport holders and others,Unknown,29.0
+446,01/11/2015,Europe,Unknown,15518.0
+447,01/11/2015,Asia,Unknown,14831.0
+448,01/11/2015,Africa,Unknown,482.0
+449,01/11/2015,Americas,Unknown,3496.0
+450,01/11/2015,Oceania,Unknown,1311.0
+451,01/11/2015,the Middle East,Unknown,2180.0
+452,01/11/2015,UN passport holders and others,Unknown,27.0
+453,01/12/2015,Europe,Unknown,22816.0
+454,01/12/2015,Asia,Unknown,17545.0
+455,01/12/2015,Africa,Unknown,1360.0
+456,01/12/2015,Americas,Unknown,6220.0
+457,01/12/2015,Oceania,Unknown,2144.0
+458,01/12/2015,the Middle East,Unknown,3969.0
+459,01/12/2015,UN passport holders and others,Unknown,34.0
+460,01/01/2016,Europe,Unknown,20590.0
+461,01/01/2016,Asia,Unknown,11710.0
+462,01/01/2016,Africa,Unknown,658.0
+463,01/01/2016,Americas,Unknown,4318.0
+464,01/01/2016,Oceania,Unknown,3536.0
+465,01/01/2016,the Middle East,Unknown,4339.0
+466,01/01/2016,UN passport holders and others,Unknown,30.0
+467,01/02/2016,Europe,Unknown,21842.0
+468,01/02/2016,Asia,Unknown,12132.0
+469,01/02/2016,Africa,Unknown,595.0
+470,01/02/2016,Americas,Unknown,4111.0
+471,01/02/2016,Oceania,Unknown,1319.0
+472,01/02/2016,the Middle East,Unknown,2734.0
+473,01/02/2016,UN passport holders and others,Unknown,49.0
+474,01/03/2016,Europe,Unknown,21134.0
+475,01/03/2016,Asia,Unknown,13569.0
+476,01/03/2016,Africa,Unknown,827.0
+477,01/03/2016,Americas,Unknown,4741.0
+478,01/03/2016,Oceania,Unknown,1706.0
+479,01/03/2016,the Middle East,Unknown,4338.0
+480,01/03/2016,UN passport holders and others,Unknown,28.0
+481,01/04/2016,Europe,Unknown,15971.0
+482,01/04/2016,Asia,Unknown,15191.0
+483,01/04/2016,Africa,Unknown,982.0
+484,01/04/2016,Americas,Unknown,3879.0
+485,01/04/2016,Oceania,Unknown,2230.0
+486,01/04/2016,the Middle East,Unknown,4415.0
+487,01/04/2016,UN passport holders and others,Unknown,32.0
+488,01/05/2016,Europe,Unknown,10776.0
+489,01/05/2016,Asia,Unknown,14845.0
+490,01/05/2016,Africa,Unknown,775.0
+491,01/05/2016,Americas,Unknown,3438.0
+492,01/05/2016,Oceania,Unknown,1592.0
+493,01/05/2016,the Middle East,Unknown,4608.0
+494,01/05/2016,UN passport holders and others,Unknown,35.0
+495,01/06/2016,Europe,Unknown,8851.0
+496,01/06/2016,Asia,Unknown,13371.0
+497,01/06/2016,Africa,Unknown,493.0
+498,01/06/2016,Americas,Unknown,3276.0
+499,01/06/2016,Oceania,Unknown,2186.0
+500,01/06/2016,the Middle East,Unknown,725.0
+501,01/06/2016,UN passport holders and others,Unknown,9.0
+502,01/07/2016,Europe,Unknown,16081.0
+503,01/07/2016,Asia,Unknown,16632.0
+504,01/07/2016,Africa,Unknown,1019.0
+505,01/07/2016,Americas,Unknown,3960.0
+506,01/07/2016,Oceania,Unknown,2452.0
+507,01/07/2016,the Middle East,Unknown,7242.0
+508,01/07/2016,UN passport holders and others,Unknown,29.0
+509,01/08/2016,Europe,Unknown,15525.0
+510,01/08/2016,Asia,Unknown,15318.0
+511,01/08/2016,Africa,Unknown,1324.0
+512,01/08/2016,Americas,Unknown,3607.0
+513,01/08/2016,Oceania,Unknown,1969.0
+514,01/08/2016,the Middle East,Unknown,6532.0
+515,01/08/2016,UN passport holders and others,Unknown,31.0
+516,01/09/2016,Europe,Unknown,13408.0
+517,01/09/2016,Asia,Unknown,15844.0
+518,01/09/2016,Africa,Unknown,1109.0
+519,01/09/2016,Americas,Unknown,4251.0
+520,01/09/2016,Oceania,Unknown,2658.0
+521,01/09/2016,the Middle East,Unknown,6804.0
+522,01/09/2016,UN passport holders and others,Unknown,34.0
+523,01/10/2016,Europe,Unknown,21122.0
+524,01/10/2016,Asia,Unknown,16737.0
+525,01/10/2016,Africa,Unknown,748.0
+526,01/10/2016,Americas,Unknown,4391.0
+527,01/10/2016,Oceania,Unknown,2078.0
+528,01/10/2016,the Middle East,Unknown,2398.0
+529,01/10/2016,UN passport holders and others,Unknown,24.0
+530,01/11/2016,Europe,Unknown,20116.0
+531,01/11/2016,Asia,Unknown,16242.0
+532,01/11/2016,Africa,Unknown,686.0
+533,01/11/2016,Americas,Unknown,4580.0
+534,01/11/2016,Oceania,Unknown,1890.0
+535,01/11/2016,the Middle East,Unknown,3930.0
+536,01/11/2016,UN passport holders and others,Unknown,32.0
+537,01/12/2016,Europe,Unknown,23325.0
+538,01/12/2016,Asia,Unknown,19464.0
+539,01/12/2016,Africa,Unknown,1536.0
+540,01/12/2016,Americas,Unknown,5906.0
+541,01/12/2016,Oceania,Unknown,2092.0
+542,01/12/2016,the Middle East,Unknown,3265.0
+543,01/12/2016,UN passport holders and others,Unknown,42.0
+544,01/01/2017,Europe,Unknown,23776.0
+545,01/01/2017,Asia,Unknown,11867.0
+546,01/01/2017,Africa,Unknown,877.0
+547,01/01/2017,Americas,Unknown,5474.0
+548,01/01/2017,Oceania,Unknown,2371.0
+549,01/01/2017,the Middle East,Unknown,3969.0
+550,01/01/2017,UN passport holders and others,Unknown,36.0
+551,01/02/2017,Europe,Unknown,25348.0
+552,01/02/2017,Asia,Unknown,12651.0
+553,01/02/2017,Africa,Unknown,676.0
+554,01/02/2017,Americas,Unknown,4574.0
+555,01/02/2017,Oceania,Unknown,1657.0
+556,01/02/2017,the Middle East,Unknown,3381.0
+557,01/02/2017,UN passport holders and others,Unknown,15.0
+558,01/03/2017,Europe,Unknown,20143.0
+559,01/03/2017,Asia,Unknown,14911.0
+560,01/03/2017,Africa,Unknown,1001.0
+561,01/03/2017,Americas,Unknown,5440.0
+562,01/03/2017,Oceania,Unknown,2180.0
+563,01/03/2017,the Middle East,Unknown,3976.0
+564,01/03/2017,UN passport holders and others,Unknown,19.0
+565,01/04/2017,Europe,Unknown,22014.0
+566,01/04/2017,Asia,Unknown,17971.0
+567,01/04/2017,Africa,Unknown,1452.0
+568,01/04/2017,Americas,Unknown,5294.0
+569,01/04/2017,Oceania,Unknown,2924.0
+570,01/04/2017,the Middle East,Unknown,4231.0
+571,01/04/2017,UN passport holders and others,Unknown,23.0
+572,01/05/2017,Europe,Unknown,10990.0
+573,01/05/2017,Asia,Unknown,16267.0
+574,01/05/2017,Africa,Unknown,1141.0
+575,01/05/2017,Americas,Unknown,4214.0
+576,01/05/2017,Oceania,Unknown,2080.0
+577,01/05/2017,the Middle East,Unknown,2725.0
+578,01/05/2017,UN passport holders and others,Unknown,8.0
+579,01/06/2017,Europe,Unknown,9497.0
+580,01/06/2017,Asia,Unknown,14879.0
+581,01/06/2017,Africa,Unknown,880.0
+582,01/06/2017,Americas,Unknown,4104.0
+583,01/06/2017,Oceania,Unknown,2479.0
+584,01/06/2017,the Middle East,Unknown,2603.0
+585,01/06/2017,UN passport holders and others,Unknown,4.0
+586,01/07/2017,Europe,Unknown,18311.0
+587,01/07/2017,Asia,Unknown,14858.0
+588,01/07/2017,Africa,Unknown,1710.0
+589,01/07/2017,Americas,Unknown,5083.0
+590,01/07/2017,Oceania,Unknown,3057.0
+591,01/07/2017,the Middle East,Unknown,6593.0
+592,01/07/2017,UN passport holders and others,Unknown,20.0
+593,01/08/2017,Europe,Unknown,17896.0
+594,01/08/2017,Asia,Unknown,17934.0
+595,01/08/2017,Africa,Unknown,1631.0
+596,01/08/2017,Americas,Unknown,4739.0
+597,01/08/2017,Oceania,Unknown,2199.0
+598,01/08/2017,the Middle East,Unknown,7547.0
+599,01/08/2017,UN passport holders and others,Unknown,28.0
+600,01/09/2017,Europe,Unknown,15108.0
+601,01/09/2017,Asia,Unknown,17530.0
+602,01/09/2017,Africa,Unknown,1194.0
+603,01/09/2017,Americas,Unknown,4632.0
+604,01/09/2017,Oceania,Unknown,3153.0
+605,01/09/2017,the Middle East,Unknown,5429.0
+606,01/09/2017,UN passport holders and others,Unknown,30.0
+607,01/10/2017,Europe,Unknown,24285.0
+608,01/10/2017,Asia,Unknown,18871.0
+609,01/10/2017,Africa,Unknown,1000.0
+610,01/10/2017,Americas,Unknown,5008.0
+611,01/10/2017,Oceania,Unknown,2684.0
+612,01/10/2017,the Middle East,Unknown,2286.0
+613,01/10/2017,UN passport holders and others,Unknown,16.0
+614,01/11/2017,Europe,Unknown,21979.0
+615,01/11/2017,Asia,Unknown,18937.0
+616,01/11/2017,Africa,Unknown,929.0
+617,01/11/2017,Americas,Unknown,6269.0
+618,01/11/2017,Oceania,Unknown,2703.0
+619,01/11/2017,the Middle East,Unknown,3055.0
+620,01/11/2017,UN passport holders and others,Unknown,17.0
+621,01/12/2017,Europe,Unknown,27767.0
+622,01/12/2017,Asia,Unknown,20566.0
+623,01/12/2017,Africa,Unknown,2187.0
+624,01/12/2017,Americas,Unknown,7141.0
+625,01/12/2017,Oceania,Unknown,2821.0
+626,01/12/2017,the Middle East,Unknown,3398.0
+627,01/12/2017,UN passport holders and others,Unknown,21.0
+628,01/01/2018,Europe,Unknown,28573.0
+629,01/01/2018,Asia,Unknown,14819.0
+630,01/01/2018,Africa,Unknown,1057.0
+631,01/01/2018,Americas,Unknown,6581.0
+632,01/01/2018,Oceania,Unknown,3395.0
+633,01/01/2018,the Middle East,Unknown,5567.0
+634,01/01/2018,UN passport holders and others,Unknown,18.0
+635,01/02/2018,Europe,Unknown,29590.0
+636,01/02/2018,Asia,Unknown,13783.0
+637,01/02/2018,Africa,Unknown,708.0
+638,01/02/2018,Americas,Unknown,5780.0
+639,01/02/2018,Oceania,Unknown,2021.0
+640,01/02/2018,the Middle East,Unknown,2723.0
+641,01/02/2018,UN passport holders and others,Unknown,17.0
+642,01/03/2018,Europe,Unknown,28345.0
+643,01/03/2018,Asia,Unknown,18217.0
+644,01/03/2018,Africa,Unknown,1115.0
+645,01/03/2018,Americas,Unknown,6746.0
+646,01/03/2018,Oceania,Unknown,3257.0
+647,01/03/2018,the Middle East,Unknown,3608.0
+648,01/03/2018,UN passport holders and others,Unknown,21.0
+649,01/04/2018,Europe,Unknown,22210.0
+650,01/04/2018,Asia,Unknown,19862.0
+651,01/04/2018,Africa,Unknown,1355.0
+652,01/04/2018,Americas,Unknown,5814.0
+653,01/04/2018,Oceania,Unknown,4516.0
+654,01/04/2018,the Middle East,Unknown,4599.0
+655,01/04/2018,UN passport holders and others,Unknown,15.0
+656,01/05/2018,Europe,Unknown,12095.0
+657,01/05/2018,Asia,Unknown,16746.0
+658,01/05/2018,Africa,Unknown,859.0
+659,01/05/2018,Americas,Unknown,4630.0
+660,01/05/2018,Oceania,Unknown,2907.0
+661,01/05/2018,the Middle East,Unknown,2067.0
+662,01/05/2018,UN passport holders and others,Unknown,10.0
+663,01/06/2018,Europe,Unknown,11093.0
+664,01/06/2018,Asia,Unknown,19462.0
+665,01/06/2018,Africa,Unknown,1101.0
+666,01/06/2018,Americas,Unknown,4683.0
+667,01/06/2018,Oceania,Unknown,2986.0
+668,01/06/2018,the Middle East,Unknown,4566.0
+669,01/06/2018,UN passport holders and others,Unknown,13.0
+670,01/07/2018,Europe,Unknown,21193.0
+671,01/07/2018,Asia,Unknown,18431.0
+672,01/07/2018,Africa,Unknown,1595.0
+673,01/07/2018,Americas,Unknown,5117.0
+674,01/07/2018,Oceania,Unknown,3957.0
+675,01/07/2018,the Middle East,Unknown,6693.0
+676,01/07/2018,UN passport holders and others,Unknown,15.0
+677,01/08/2018,Europe,Unknown,20847.0
+678,01/08/2018,Asia,Unknown,17039.0
+679,01/08/2018,Africa,Unknown,1649.0
+680,01/08/2018,Americas,Unknown,4594.0
+681,01/08/2018,Oceania,Unknown,3017.0
+682,01/08/2018,the Middle East,Unknown,7417.0
+683,01/08/2018,UN passport holders and others,Unknown,17.0
+684,01/09/2018,Europe,Unknown,17014.0
+685,01/09/2018,Asia,Unknown,15709.0
+686,01/09/2018,Africa,Unknown,1449.0
+687,01/09/2018,Americas,Unknown,5055.0
+688,01/09/2018,Oceania,Unknown,4200.0
+689,01/09/2018,the Middle East,Unknown,3946.0
+690,01/09/2018,UN passport holders and others,Unknown,12.0
+691,01/10/2018,Europe,Unknown,24403.0
+692,01/10/2018,Asia,Unknown,17195.0
+693,01/10/2018,Africa,Unknown,1156.0
+694,01/10/2018,Americas,Unknown,5314.0
+695,01/10/2018,Oceania,Unknown,4068.0
+696,01/10/2018,the Middle East,Unknown,2982.0
+697,01/10/2018,UN passport holders and others,Unknown,8.0
+698,01/11/2018,Europe,Unknown,22469.0
+699,01/11/2018,Asia,Unknown,16899.0
+700,01/11/2018,Africa,Unknown,949.0
+701,01/11/2018,Americas,Unknown,6830.0
+702,01/11/2018,Oceania,Unknown,3215.0
+703,01/11/2018,the Middle East,Unknown,3429.0
+704,01/11/2018,UN passport holders and others,Unknown,20.0
+705,01/12/2018,Europe,Unknown,29746.0
+706,01/12/2018,Asia,Unknown,19176.0
+707,01/12/2018,Africa,Unknown,2361.0
+708,01/12/2018,Americas,Unknown,7620.0
+709,01/12/2018,Oceania,Unknown,2971.0
+710,01/12/2018,the Middle East,Unknown,4517.0
+711,01/12/2018,UN passport holders and others,Unknown,18.0
+712,01/01/2019,Europe,Unknown,29945.0
+713,01/01/2019,Asia,Unknown,14176.0
+714,01/01/2019,Africa,Unknown,1453.0
+715,01/01/2019,Americas,Unknown,7239.0
+716,01/01/2019,Oceania,Unknown,3503.0
+717,01/01/2019,the Middle East,Unknown,4200.0
+718,01/01/2019,UN passport holders and others,Unknown,16.0
+719,01/02/2019,Europe,Unknown,33054.0
+720,01/02/2019,Asia,Unknown,15178.0
+721,01/02/2019,Africa,Unknown,1050.0
+722,01/02/2019,Americas,Unknown,8358.0
+723,01/02/2019,Oceania,Unknown,2843.0
+724,01/02/2019,the Middle East,Unknown,3651.0
+725,01/02/2019,UN passport holders and others,Unknown,17.0
+726,01/03/2019,Europe,Unknown,27401.0
+727,01/03/2019,Asia,Unknown,18176.0
+728,01/03/2019,Africa,Unknown,1585.0
+729,01/03/2019,Americas,Unknown,10207.0
+730,01/03/2019,Oceania,Unknown,4105.0
+731,01/03/2019,the Middle East,Unknown,4959.0
+732,01/03/2019,UN passport holders and others,Unknown,22.0
+733,01/04/2019,Europe,Unknown,28810.0
+734,01/04/2019,Asia,Unknown,22873.0
+735,01/04/2019,Africa,Unknown,1833.0
+736,01/04/2019,Americas,Unknown,7393.0
+737,01/04/2019,Oceania,Unknown,4990.0
+738,01/04/2019,the Middle East,Unknown,6443.0
+739,01/04/2019,UN passport holders and others,Unknown,24.0
+740,01/05/2019,Europe,Unknown,11471.0
+741,01/05/2019,Asia,Unknown,15674.0
+742,01/05/2019,Africa,Unknown,734.0
+743,01/05/2019,Americas,Unknown,5395.0
+744,01/05/2019,Oceania,Unknown,3542.0
+745,01/05/2019,the Middle East,Unknown,741.0
+746,01/05/2019,UN passport holders and others,Unknown,18.0
+747,01/06/2019,Europe,Unknown,13429.0
+748,01/06/2019,Asia,Unknown,18252.0
+749,01/06/2019,Africa,Unknown,1549.0
+750,01/06/2019,Americas,Unknown,5356.0
+751,01/06/2019,Oceania,Unknown,3062.0
+752,01/06/2019,the Middle East,Unknown,7685.0
+753,01/06/2019,UN passport holders and others,Unknown,35.0
+754,01/07/2019,Europe,Unknown,23658.0
+755,01/07/2019,Asia,Unknown,16608.0
+756,01/07/2019,Africa,Unknown,1526.0
+757,01/07/2019,Americas,Unknown,5873.0
+758,01/07/2019,Oceania,Unknown,4075.0
+759,01/07/2019,the Middle East,Unknown,7105.0
+760,01/07/2019,UN passport holders and others,Unknown,35.0
+761,01/08/2019,Europe,Unknown,22342.0
+762,01/08/2019,Asia,Unknown,17967.0
+763,01/08/2019,Africa,Unknown,1825.0
+764,01/08/2019,Americas,Unknown,5310.0
+765,01/08/2019,Oceania,Unknown,3191.0
+766,01/08/2019,the Middle East,Unknown,7990.0
+767,01/08/2019,UN passport holders and others,Unknown,23.0
+768,01/09/2019,Europe,Unknown,19452.0
+769,01/09/2019,Asia,Unknown,17003.0
+770,01/09/2019,Africa,Unknown,1730.0
+771,01/09/2019,Americas,Unknown,5982.0
+772,01/09/2019,Oceania,Unknown,3952.0
+773,01/09/2019,the Middle East,Unknown,4613.0
+774,01/09/2019,UN passport holders and others,Unknown,32.0
+775,01/10/2019,Europe,Unknown,27587.0
+776,01/10/2019,Asia,Unknown,18803.0
+777,01/10/2019,Africa,Unknown,1059.0
+778,01/10/2019,Americas,Unknown,6496.0
+779,01/10/2019,Oceania,Unknown,4146.0
+780,01/10/2019,the Middle East,Unknown,3477.0
+781,01/10/2019,UN passport holders and others,Unknown,23.0
+782,01/11/2019,Europe,Unknown,26282.0
+783,01/11/2019,Asia,Unknown,16213.0
+784,01/11/2019,Africa,Unknown,1192.0
+785,01/11/2019,Americas,Unknown,8020.0
+786,01/11/2019,Oceania,Unknown,3621.0
+787,01/11/2019,the Middle East,Unknown,4255.0
+788,01/11/2019,UN passport holders and others,Unknown,42.0
+789,01/12/2019,Europe,Unknown,33298.0
+790,01/12/2019,Asia,Unknown,20018.0
+791,01/12/2019,Africa,Unknown,3159.0
+792,01/12/2019,Americas,Unknown,9165.0
+793,01/12/2019,Oceania,Unknown,3110.0
+794,01/12/2019,the Middle East,Unknown,4884.0
+795,01/12/2019,UN passport holders and others,Unknown,29.0
+796,01/01/2020,Europe,Unknown,33880.0
+797,01/01/2020,Asia,Unknown,13173.0
+798,01/01/2020,Africa,Unknown,1536.0
+799,01/01/2020,Americas,Unknown,8078.0
+800,01/01/2020,Oceania,Unknown,2926.0
+801,01/01/2020,the Middle East,Unknown,7297.0
+802,01/01/2020,UN passport holders and others,Unknown,23.0
+803,01/02/2020,Europe,Unknown,35528.0
+804,01/02/2020,Asia,Unknown,14617.0
+805,01/02/2020,Africa,Unknown,1118.0
+806,01/02/2020,Americas,Unknown,2917.0
+807,01/02/2020,Oceania,Unknown,220.0
+808,01/02/2020,the Middle East,Unknown,4793.0
+809,01/02/2020,UN passport holders and others,Unknown,21.0
+810,01/03/2020,Europe,Unknown,13290.0
+811,01/03/2020,Asia,Unknown,4959.0
+812,01/03/2020,Africa,Unknown,658.0
+813,01/03/2020,Americas,Unknown,1363.0
+814,01/03/2020,Oceania,Unknown,80.0
+815,01/03/2020,the Middle East,Unknown,1346.0
+816,01/03/2020,UN passport holders and others,Unknown,7.0
+817,01/04/2020,Europe,Unknown,0.0
+818,01/04/2020,Asia,Unknown,11.0
+819,01/04/2020,Africa,Unknown,0.0
+820,01/04/2020,Americas,Unknown,0.0
+821,01/04/2020,Oceania,Unknown,0.0
+822,01/04/2020,the Middle East,Unknown,1.0
+823,01/04/2020,UN passport holders and others,Unknown,0.0
+824,01/05/2020,Europe,Unknown,24.0
+825,01/05/2020,Asia,Unknown,3.0
+826,01/05/2020,Africa,Unknown,0.0
+827,01/05/2020,Americas,Unknown,0.0
+828,01/05/2020,Oceania,Unknown,0.0
+829,01/05/2020,the Middle East,Unknown,0.0
+830,01/05/2020,UN passport holders and others,Unknown,0.0
+831,01/06/2020,Europe,Unknown,0.0
+832,01/06/2020,Asia,Unknown,0.0
+833,01/06/2020,Africa,Unknown,0.0
+834,01/06/2020,Americas,Unknown,0.0
+835,01/06/2020,Oceania,Unknown,0.0
+836,01/06/2020,the Middle East,Unknown,0.0
+837,01/06/2020,UN passport holders and others,Unknown,0.0
+838,01/07/2020,Europe,Unknown,501.0
+839,01/07/2020,Asia,Unknown,75.0
+840,01/07/2020,Africa,Unknown,55.0
+841,01/07/2020,Americas,Unknown,66.0
+842,01/07/2020,Oceania,Unknown,12.0
+843,01/07/2020,the Middle East,Unknown,247.0
+844,01/07/2020,UN passport holders and others,Unknown,0.0
+845,01/08/2020,Europe,Unknown,1570.0
+846,01/08/2020,Asia,Unknown,396.0
+847,01/08/2020,Africa,Unknown,163.0
+848,01/08/2020,Americas,Unknown,296.0
+849,01/08/2020,Oceania,Unknown,13.0
+850,01/08/2020,the Middle East,Unknown,2068.0
+851,01/08/2020,UN passport holders and others,Unknown,0.0
+852,01/09/2020,Europe,Unknown,2113.0
+853,01/09/2020,Asia,Unknown,371.0
+854,01/09/2020,Africa,Unknown,159.0
+855,01/09/2020,Americas,Unknown,584.0
+856,01/09/2020,Oceania,Unknown,5.0
+857,01/09/2020,the Middle East,Unknown,1627.0
+858,01/09/2020,UN passport holders and others,Unknown,3.0
+859,01/10/2020,Europe,Unknown,4869.0
+860,01/10/2020,Asia,Unknown,690.0
+861,01/10/2020,Africa,Unknown,270.0
+862,01/10/2020,Americas,Unknown,827.0
+863,01/10/2020,Oceania,Unknown,29.0
+864,01/10/2020,the Middle East,Unknown,1822.0
+865,01/10/2020,UN passport holders and others,Unknown,8.0
+866,01/11/2020,Europe,Unknown,6984.0
+867,01/11/2020,Asia,Unknown,888.0
+868,01/11/2020,Africa,Unknown,503.0
+869,01/11/2020,Americas,Unknown,1297.0
+870,01/11/2020,Oceania,Unknown,27.0
+871,01/11/2020,the Middle East,Unknown,2530.0
+872,01/11/2020,UN passport holders and others,Unknown,18.0
+873,01/12/2020,Europe,Unknown,24327.0
+874,01/12/2020,Asia,Unknown,1891.0
+875,01/12/2020,Africa,Unknown,1996.0
+876,01/12/2020,Americas,Unknown,1924.0
+877,01/12/2020,Oceania,Unknown,121.0
+878,01/12/2020,the Middle East,Unknown,4557.0
+879,01/12/2020,UN passport holders and others,Unknown,16.0
