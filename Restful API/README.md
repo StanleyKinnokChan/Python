@@ -1,9 +1,3 @@
-
-
-[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/staneykinnok-chan/)
-
-
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -94,10 +88,15 @@ _Below is an example of how you can instruct your audience on installing and set
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+Running the first script to insert sample data into DB
+![image](https://github.com/StanleyKinnokChan/Python/assets/119007706/c19607b7-4734-45c3-ace4-0639a2d9ec1d)
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Running the second script to run the API application
+![image](https://github.com/StanleyKinnokChan/Python/assets/119007706/44c1ce05-88b1-40de-85d8-606b75ab8b3d)
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+Running the third script to see the GET/POST/PUT/DELETE in each code snipet
+![image](https://github.com/StanleyKinnokChan/Python/assets/119007706/7f1acfb3-fff3-4be6-af53-989f519d0cca)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
