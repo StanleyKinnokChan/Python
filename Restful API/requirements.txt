@@ -1,0 +1,4 @@
+Flask==2.2.5
+psycopg==3.1.18
+python-dotenv==1.0.0
+pandas==2.0.3
