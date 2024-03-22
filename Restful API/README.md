@@ -13,8 +13,6 @@
 </div>
 
 
-
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -97,9 +95,11 @@ Running the second script to run the API application
 Running the third script to see the GET/POST/PUT/DELETE in each code snipet
 ![image](https://github.com/StanleyKinnokChan/Python/assets/119007706/7f1acfb3-fff3-4be6-af53-989f519d0cca)
 
+Query the data using PGadmin
+![image](https://github.com/StanleyKinnokChan/Python/assets/119007706/e785e61e-d7cb-4996-bd72-7b7b4e05a93b)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 
