@@ -1,0 +1,1 @@
+This folder contains a very short code snippet for understanding the behavior of a function, lib or test

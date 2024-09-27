@@ -1,0 +1,18 @@
+2024-08-27 11:40:02,698 - my_logger - DEBUG - This DEBUG message will go to both the console and the file.
+2024-08-27 11:40:02,699 - my_logger - INFO - This INFO message will go to both the console and the file.
+2024-08-27 11:40:02,699 - my_logger - ERROR - An exception occurred!
+Traceback (most recent call last):
+  File "C:\Users\StanleyChan\SynologyDrive\Work Backup\my document\python\1-minute learning\logging.py", line 101, in <module>
+ZeroDivisionError: division by zero
+2024-08-27 11:48:04,512 - my_logger - DEBUG - This DEBUG message will go to both the console and the file.
+2024-08-27 11:48:04,512 - my_logger - INFO - This INFO message will go to both the console and the file.
+2024-08-27 11:48:04,513 - my_logger - ERROR - An exception occurred!
+Traceback (most recent call last):
+  File "C:\Users\StanleyChan\SynologyDrive\Work Backup\my document\python\1-minute learning\logging.py", line 101, in <module>
+ZeroDivisionError: division by zero
+2024-08-28 15:49:01,006 - my_logger - DEBUG - This DEBUG message will go to both the console and the file.
+2024-08-28 15:49:01,007 - my_logger - INFO - This INFO message will go to both the console and the file.
+2024-08-28 15:49:01,008 - my_logger - ERROR - An exception occurred!
+Traceback (most recent call last):
+  File "C:\Users\StanleyChan\SynologyDrive\Work Backup\my document\python\1-minute learning\logging.py", line 101, in <module>
+ZeroDivisionError: division by zero

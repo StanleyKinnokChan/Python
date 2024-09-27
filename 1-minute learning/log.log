@@ -1,0 +1,8 @@
+2024-08-28 16:57:04,374 - INFO - This INFO message will be written to a file.
+2024-08-28 16:57:04,375 - DEBUG - This DEBUG message will go to both the console and the file.
+2024-08-28 16:57:04,375 - INFO - This INFO message will go to both the console and the file.
+2024-08-28 16:57:04,376 - ERROR - An exception occurred!
+Traceback (most recent call last):
+  File "c:/Users/StanleyChan/SynologyDrive/Work Backup/my document/python/1-minute learning/logging_module.py", line 113, in <module>
+    x = 1 / 0  # This will raise a ZeroDivisionError
+ZeroDivisionError: division by zero
