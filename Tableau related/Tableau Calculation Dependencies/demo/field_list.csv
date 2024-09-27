@@ -1,0 +1,52 @@
+,datasource,underlying_name,presented_name,datatype,role,type,class,underlying_formula,classification,presented_formula,comment_exist
+0,Parameters,[Parameter 2],Minimum Wage,real,measure,quantitative,tableau,15.0,parameter,15.0,
+1,Parameters,[Parameter 3],Required Service,real,measure,quantitative,tableau,0.0,parameter,0.0,
+2,Wage Analysis,[Below Minimum Wage (copy)],Below or Above,string,dimension,nominal,tableau,"if [Hrly Rate] < [Parameters].[Parameter 2] and [Service Time in Years] >= [Parameters].[Parameter 3] then
+""Below""
+ELSE
+""Above""
+end",calculation field,"if [Hrly Rate] < [Parameters].[Minimum Wage] and [Service Time in Years] >= [Parameters].[Required Service] then
+""Below""
+ELSE
+""Above""
+end",False
+3,Wage Analysis,[Budget Area],Budget Area,string,dimension,nominal,,,sourced,,
+4,Wage Analysis,[Calculation_441071295172673536],Below Minimum Wage,string,dimension,nominal,tableau,"if [Hrly Rate] < [Parameters].[Parameter 2] and [Service Time in Years] >= [Parameters].[Parameter 3] then
+""Below Minimum Wage""
+ELSE
+""Above Minimum Wage""
+end",calculation field,"if [Hrly Rate] < [Parameters].[Minimum Wage] and [Service Time in Years] >= [Parameters].[Required Service] then
+""Below Minimum Wage""
+ELSE
+""Above Minimum Wage""
+end",False
+5,Wage Analysis,[Calculation_441071295180709890],Wage Correction,real,measure,quantitative,tableau,"if [Service Time in Years] > [Parameters].[Parameter 3] then
+(([Parameters].[Parameter 2]-[Hrly Rate])*52*37.64)*1.363
+end",calculation field,"if [Service Time in Years] > [Parameters].[Required Service] then
+(([Parameters].[Minimum Wage]-[Hrly Rate])*52*37.64)*1.363
+end",False
+6,Wage Analysis,[Calculation_5559623379418963973],Display Number of Records,real,measure,quantitative,tableau,"ifnull(LOOKUP(SUM([Number of Records]),0),0)",calculation field,"ifnull(LOOKUP(SUM([Number of Records]),0),0)",False
+7,Wage Analysis,[Calculation_5559623380064735239],Hrly Correction,real,measure,quantitative,tableau,"if [Hrly Rate] < [Parameters].[Parameter 2] and [Service Time in Years] >= [Parameters].[Parameter 3] then
+[Parameters].[Parameter 2]
+ELSE
+[Hrly Rate]
+end",calculation field,"if [Hrly Rate] < [Parameters].[Minimum Wage] and [Service Time in Years] >= [Parameters].[Required Service] then
+[Parameters].[Minimum Wage]
+ELSE
+[Hrly Rate]
+end",False
+8,Wage Analysis,[Calculation_5559623380105793544],Hrly Rate Bin Size,integer,dimension,ordinal,tableau,INT ( [Hrly Rate] / 1 ) * 1,calculation field,INT ( [Hrly Rate] / 1 ) * 1,False
+9,Wage Analysis,[Calculation_5559623380106100745],Mean,real,measure,quantitative,tableau,TOTAL (AVG([Hrly Rate])),calculation field,TOTAL (AVG([Hrly Rate])),False
+10,Wage Analysis,[Calculation_5559623380106240010],STDEV,real,measure,quantitative,tableau,TOTAL ( STDEV ( [Hrly Rate] ) ),calculation field,TOTAL ( STDEV ( [Hrly Rate] ) ),False
+11,Wage Analysis,[Calculation_5559623380106354699],Curve,real,measure,quantitative,tableau,(1/(sqrt([Calculation_5559623380106240010]^2*2*pi()))) * exp(-( (attr([Calculation_5559623380105793544])-[Calculation_5559623380106100745])^2  /  (2*[Calculation_5559623380106240010]^2)  )) * 1 * TOTAL(SUM([Number of Records])),calculation field,(1/(sqrt([STDEV]^2*2*pi()))) * exp(-( (attr([Hrly Rate Bin Size])-[Mean])^2  /  (2*[STDEV]^2)  )) * 1 * TOTAL(SUM([Number of Records])),False
+12,Wage Analysis,[Curve (copy)],Curve Correction,real,measure,quantitative,tableau,(1 / ([STDEV (copy)] * SQRT(2*PI()))) * EXP(-((ATTR([Hrly Rate Bin Size (copy)]) - [Mean (copy)])^2 / (2*[STDEV (copy)]^2))) * 1 * TOTAL (SUM([Number of Records])),calculation field,(1 / ([STDEV Correction] * SQRT(2*PI()))) * EXP(-((ATTR([Hrly Rate Correction Bin Size]) - [Mean Correction])^2 / (2*[STDEV Correction]^2))) * 1 * TOTAL (SUM([Number of Records])),False
+13,Wage Analysis,[Hrly Correction (bin)],Hrly Correction (bin),integer,dimension,ordinal,bin,[Calculation_5559623380064735239],calculation field,[Hrly Correction],False
+14,Wage Analysis,[Hrly Rate (bin)],Hrly Rate (bin),integer,dimension,ordinal,bin,[Hrly Rate],calculation field,[Hrly Rate],False
+15,Wage Analysis,[Hrly Rate Bin Size (copy)],Hrly Rate Correction Bin Size,integer,dimension,ordinal,tableau,INT ( [Calculation_5559623380064735239] / 1 ) * 1,calculation field,INT ( [Hrly Correction] / 1 ) * 1,False
+16,Wage Analysis,[Hrly Rate],Hrly Rate,real,measure,quantitative,,,sourced,,
+17,Wage Analysis,[ID],ID,integer,dimension,ordinal,,,sourced,,
+18,Wage Analysis,[Mean (copy)],Mean Correction,real,measure,quantitative,tableau,TOTAL (AVG([Calculation_5559623380064735239])),calculation field,TOTAL (AVG([Hrly Correction])),False
+19,Wage Analysis,[Number of Records],Number of Records,real,measure,quantitative,tableau,FLOAT(1),calculation field,FLOAT(1),False
+20,Wage Analysis,[Report Date],Report Date,date,dimension,ordinal,,,sourced,,
+21,Wage Analysis,[STDEV (copy)],STDEV Correction,real,measure,quantitative,tableau,TOTAL ( STDEV ( [Calculation_5559623380064735239] ) ),calculation field,TOTAL ( STDEV ( [Hrly Correction] ) ),False
+22,Wage Analysis,[Service Time in Years],Service Time in Years,real,measure,quantitative,,,sourced,,

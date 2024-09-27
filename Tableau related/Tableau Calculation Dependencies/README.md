@@ -59,8 +59,11 @@ These are the versions of python and packages when I crteated the script.
 2. Running the script: ``` py 'Tableau Calculation Dependencies.py'```. The field_csv and the HTMLs file will be saved in the directory where the workbook file located.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-3. .......
+Examples of HTML:
+![image](https://i.imgur.com/GfqcA3W.png)
 
+Examples of csv:
+![image](https://i.imgur.com/bU3klRU.png)
 
 
 <!-- LICENSE -->

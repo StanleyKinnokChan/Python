@@ -32,7 +32,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This is only a very simple gidget that I used to cosolidate the dashabord usage files `Who Has Seen.xlsx` downloaded from the server. Noted that if you have large number of dashboards, a better way should be querying the [Tableau server repository database](https://tableau.github.io/tableau-data-dictionary/2022.1/data_dictionary.html). The use case here is when you don't have the access right to the Tableau server repository database, and you download `Who Has Seen.xlsx` files from each of the dashboard for a quick analysis. Here is the consolidating tools. 
+This is only a very simple gidget that I used to cosolidate the dashabord usage files `Who Has Seen.xlsx` downloaded from the server. Noted that if you have large number of dashboards, a better way should be querying the [Tableau server repository database](https://tableau.github.io/tableau-data-dictionary/2022.1/data_dictionary.html). The use case here is when you don't have the access right to the Tableau server repository database, and you download `Who Has Seen.xlsx` files from each of the dashboard for a quick analysis, this tool helps you to consolidate them.  
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

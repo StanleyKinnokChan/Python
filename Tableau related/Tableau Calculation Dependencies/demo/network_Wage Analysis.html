@@ -1,0 +1,579 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script>function neighbourhoodHighlight(params) {
+  // console.log("in nieghbourhoodhighlight");
+  allNodes = nodes.get({ returnType: "Object" });
+  // originalNodes = JSON.parse(JSON.stringify(allNodes));
+  // if something is selected:
+  if (params.nodes.length > 0) {
+    highlightActive = true;
+    var i, j;
+    var selectedNode = params.nodes[0];
+    var degrees = 2;
+
+    // mark all nodes as hard to read.
+    for (let nodeId in allNodes) {
+      // nodeColors[nodeId] = allNodes[nodeId].color;
+      allNodes[nodeId].color = "rgba(200,200,200,0.5)";
+      if (allNodes[nodeId].hiddenLabel === undefined) {
+        allNodes[nodeId].hiddenLabel = allNodes[nodeId].label;
+        allNodes[nodeId].label = undefined;
+      }
+    }
+    var connectedNodes = network.getConnectedNodes(selectedNode);
+    var allConnectedNodes = [];
+
+    // get the second degree nodes
+    for (i = 1; i < degrees; i++) {
+      for (j = 0; j < connectedNodes.length; j++) {
+        allConnectedNodes = allConnectedNodes.concat(
+          network.getConnectedNodes(connectedNodes[j])
+        );
+      }
+    }
+
+    // all second degree nodes get a different color and their label back
+    for (i = 0; i < allConnectedNodes.length; i++) {
+      // allNodes[allConnectedNodes[i]].color = "pink";
+      allNodes[allConnectedNodes[i]].color = "rgba(150,150,150,0.75)";
+      if (allNodes[allConnectedNodes[i]].hiddenLabel !== undefined) {
+        allNodes[allConnectedNodes[i]].label =
+          allNodes[allConnectedNodes[i]].hiddenLabel;
+        allNodes[allConnectedNodes[i]].hiddenLabel = undefined;
+      }
+    }
+
+    // all first degree nodes get their own color and their label back
+    for (i = 0; i < connectedNodes.length; i++) {
+      // allNodes[connectedNodes[i]].color = undefined;
+      allNodes[connectedNodes[i]].color = nodeColors[connectedNodes[i]];
+      if (allNodes[connectedNodes[i]].hiddenLabel !== undefined) {
+        allNodes[connectedNodes[i]].label =
+          allNodes[connectedNodes[i]].hiddenLabel;
+        allNodes[connectedNodes[i]].hiddenLabel = undefined;
+      }
+    }
+
+    // the main node gets its own color and its label back.
+    // allNodes[selectedNode].color = undefined;
+    allNodes[selectedNode].color = nodeColors[selectedNode];
+    if (allNodes[selectedNode].hiddenLabel !== undefined) {
+      allNodes[selectedNode].label = allNodes[selectedNode].hiddenLabel;
+      allNodes[selectedNode].hiddenLabel = undefined;
+    }
+  } else if (highlightActive === true) {
+    // console.log("highlightActive was true");
+    // reset all nodes
+    for (let nodeId in allNodes) {
+      // allNodes[nodeId].color = "purple";
+      allNodes[nodeId].color = nodeColors[nodeId];
+      // delete allNodes[nodeId].color;
+      if (allNodes[nodeId].hiddenLabel !== undefined) {
+        allNodes[nodeId].label = allNodes[nodeId].hiddenLabel;
+        allNodes[nodeId].hiddenLabel = undefined;
+      }
+    }
+    highlightActive = false;
+  }
+
+  // transform the object into an array
+  var updateArray = [];
+  if (params.nodes.length > 0) {
+    for (let nodeId in allNodes) {
+      if (allNodes.hasOwnProperty(nodeId)) {
+        // console.log(allNodes[nodeId]);
+        updateArray.push(allNodes[nodeId]);
+      }
+    }
+    nodes.update(updateArray);
+  } else {
+    // console.log("Nothing was selected");
+    for (let nodeId in allNodes) {
+      if (allNodes.hasOwnProperty(nodeId)) {
+        // console.log(allNodes[nodeId]);
+        // allNodes[nodeId].color = {};
+        updateArray.push(allNodes[nodeId]);
+      }
+    }
+    nodes.update(updateArray);
+  }
+}
+
+function filterHighlight(params) {
+  allNodes = nodes.get({ returnType: "Object" });
+  // if something is selected:
+  if (params.nodes.length > 0) {
+    filterActive = true;
+    let selectedNodes = params.nodes;
+
+    // hiding all nodes and saving the label
+    for (let nodeId in allNodes) {
+      allNodes[nodeId].hidden = true;
+      if (allNodes[nodeId].savedLabel === undefined) {
+        allNodes[nodeId].savedLabel = allNodes[nodeId].label;
+        allNodes[nodeId].label = undefined;
+      }
+    }
+
+    for (let i=0; i < selectedNodes.length; i++) {
+      allNodes[selectedNodes[i]].hidden = false;
+      if (allNodes[selectedNodes[i]].savedLabel !== undefined) {
+        allNodes[selectedNodes[i]].label = allNodes[selectedNodes[i]].savedLabel;
+        allNodes[selectedNodes[i]].savedLabel = undefined;
+      }
+    }
+
+  } else if (filterActive === true) {
+    // reset all nodes
+    for (let nodeId in allNodes) {
+      allNodes[nodeId].hidden = false;
+      if (allNodes[nodeId].savedLabel !== undefined) {
+        allNodes[nodeId].label = allNodes[nodeId].savedLabel;
+        allNodes[nodeId].savedLabel = undefined;
+      }
+    }
+    filterActive = false;
+  }
+
+  // transform the object into an array
+  var updateArray = [];
+  if (params.nodes.length > 0) {
+    for (let nodeId in allNodes) {
+      if (allNodes.hasOwnProperty(nodeId)) {
+        updateArray.push(allNodes[nodeId]);
+      }
+    }
+    nodes.update(updateArray);
+  } else {
+    for (let nodeId in allNodes) {
+      if (allNodes.hasOwnProperty(nodeId)) {
+        updateArray.push(allNodes[nodeId]);
+      }
+    }
+    nodes.update(updateArray);
+  }
+}
+
+function selectNode(nodes) {
+  network.selectNodes(nodes);
+  neighbourhoodHighlight({ nodes: nodes });
+  return nodes;
+}
+
+function selectNodes(nodes) {
+  network.selectNodes(nodes);
+  filterHighlight({nodes: nodes});
+  return nodes;
+}
+
+function highlightFilter(filter) {
+  let selectedNodes = []
+  let selectedProp = filter['property']
+  if (filter['item'] === 'node') {
+    let allNodes = nodes.get({ returnType: "Object" });
+    for (let nodeId in allNodes) {
+      if (allNodes[nodeId][selectedProp] && filter['value'].includes((allNodes[nodeId][selectedProp]).toString())) {
+        selectedNodes.push(nodeId)
+      }
+    }
+  }
+  else if (filter['item'] === 'edge'){
+    let allEdges = edges.get({returnType: 'object'});
+    // check if the selected property exists for selected edge and select the nodes connected to the edge
+    for (let edge in allEdges) {
+      if (allEdges[edge][selectedProp] && filter['value'].includes((allEdges[edge][selectedProp]).toString())) {
+        selectedNodes.push(allEdges[edge]['from'])
+        selectedNodes.push(allEdges[edge]['to'])
+      }
+    }
+  }
+  selectNodes(selectedNodes)
+}</script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+            
+            
+            
+            
+            
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tom-select/2.0.0-rc.4/css/tom-select.min.css" integrity="sha512-43fHB3GLgZfz8QXl1RPQ8O66oIgv3po9cJ5erMt1c4QISq9dYb195T3vr5ImnJPXuVroKcGBPXBFKETW8jrPNQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/tom-select/2.0.0-rc.4/js/tom-select.complete.js" integrity="sha512-jeF9CfnvzDiw9G9xiksVjxR2lib44Gnovvkv+3CgCG6NXCD4gqlA5nDAVW5WjpA+i+/zKsUWV5xNEbW1X/HH0Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 750px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body><h3>Workbook: C:\Users\StanleyChan\Downloads\python\Tableau Calculation Dependencies\demo.twb</h3><h5>Statistics for datasource: Wage Analysis</h5><ul><li style='color: #f38c5f;'>calculation field: 16</li><li style='color: green;'>sourced: 5</li><li style='color: #936eb0;'>parameter: 2</li></ul>
+    <p>    Noted that these graphs are not suitable for determining if the fields are redundant, 
+    since independent fields could be used for actions and sheets.</p>
+    <p>    The best use of this graph is to:
+    <ul>
+        <li> keep track of the interconnectivity between fields</li>
+        <li> estimate what would be impacted when a field is subjected to change</li>
+        <li> identify main groups of calculations as node clusters </li>
+        <li> see the formula of the calculation field without opening each field.</li>
+    </ul>
+    </p>
+    
+        <div class="card" style="width: 100%">
+            
+                <div id="select-menu" class="card-header">
+                    <div class="row no-gutters">
+                        <div class="col-10 pb-2">
+                            <select
+                            class="form-select"
+                            aria-label="Default select example"
+                            onchange="selectNode([value]);"
+                            id="select-node"
+                            placeholder="Select node..."
+                            >
+                                <option selected>Select a Node by ID</option>
+                                
+                                    <option value="Below or Above">Below or Above</option>
+                                
+                                    <option value="Budget Area">Budget Area</option>
+                                
+                                    <option value="Below Minimum Wage">Below Minimum Wage</option>
+                                
+                                    <option value="Wage Correction">Wage Correction</option>
+                                
+                                    <option value="Display Number of Records">Display Number of Records</option>
+                                
+                                    <option value="Hrly Correction">Hrly Correction</option>
+                                
+                                    <option value="Hrly Rate Bin Size">Hrly Rate Bin Size</option>
+                                
+                                    <option value="Mean">Mean</option>
+                                
+                                    <option value="STDEV">STDEV</option>
+                                
+                                    <option value="Curve">Curve</option>
+                                
+                                    <option value="Curve Correction">Curve Correction</option>
+                                
+                                    <option value="Hrly Correction (bin)">Hrly Correction (bin)</option>
+                                
+                                    <option value="Hrly Rate (bin)">Hrly Rate (bin)</option>
+                                
+                                    <option value="Hrly Rate Correction Bin Size">Hrly Rate Correction Bin Size</option>
+                                
+                                    <option value="Hrly Rate">Hrly Rate</option>
+                                
+                                    <option value="ID">ID</option>
+                                
+                                    <option value="Mean Correction">Mean Correction</option>
+                                
+                                    <option value="Number of Records">Number of Records</option>
+                                
+                                    <option value="Report Date">Report Date</option>
+                                
+                                    <option value="STDEV Correction">STDEV Correction</option>
+                                
+                                    <option value="Service Time in Years">Service Time in Years</option>
+                                
+                                    <option value="Minimum Wage">Minimum Wage</option>
+                                
+                                    <option value="Required Service">Required Service</option>
+                                
+                            </select>
+                        </div>
+                        <div class="col-2 pb-2">
+                            <button type="button" class="btn btn-primary btn-block" onclick="neighbourhoodHighlight({nodes: []});">Reset Selection</button>
+                        </div>
+                    </div>
+                </div>
+            
+            
+              <div id="filter-menu" class="card-header">
+                <div class="row no-gutters">
+                  <div class="col-3 pb-2">
+                    <select
+                            class="form-select"
+                            aria-label="Default select example"
+                            onchange="updateFilter(value, 'item')"
+                            id="select-item"
+                        >
+                        <option value="">Select a network item</option>
+                        <option value="edge">edge</option>
+                        <option value="node">node</option>
+                    </select>
+                  </div>
+                  <div class="col-3 pb-2">
+                    <select
+                            class="form-select"
+                            aria-label="Default select example"
+                            onchange="updateFilter(value, 'property')"
+                            id="select-property"
+                        >
+                        <option value="">Select a property...</option>
+                    </select>
+                  </div>
+                  <div class="col-3 pb-2">
+                    <select
+                            class="form-select"
+                            aria-label="Default select example"
+                            id="select-value"
+                        >
+                        <option value="">Select value(s)...</option>
+                    </select>
+                  </div>
+                  <div class="col-1 pb-2">
+                    <button type="button" class="btn btn-primary btn-block" onclick="highlightFilter(filter);">Filter</button>
+                  </div>
+                  <div class="col-2 pb-2">
+                    <button type="button" class="btn btn-primary btn-block" onclick="clearFilter(true)">Reset Selection</button>
+                  </div>
+                </div>
+              </div>
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+                  new TomSelect("#select-node",{
+                      create: false,
+                      sortField: {
+                          field: "text",
+                          direction: "asc"
+                      }
+                  });
+              
+
+              
+                  // explicitly using onItemAdd and this function as we need to save multiple values
+                  let updateValueFilter = function() {
+                      return function () {
+                      filter['value'].push(arguments[0])
+                      }
+                  }
+
+                  let valueControl = new TomSelect("#select-value",{
+                      maxItems: null,
+                      valueField: 'id',
+                      labelField: 'title',
+                      searchField: 'title',
+                      create: false,
+                      sortField: {
+                          field: "text",
+                          direction: "asc"
+                      },
+                      onItemAdd: updateValueFilter()
+                  });
+
+                  let addValues = function() {
+                      return function () {
+                          // clear the current value options and add the selected attribute values
+                          // tom-select handles duplicates
+                          let selectedProperty = arguments[0];
+                          valueControl.clear();
+                          valueControl.clearOptions();
+                          filter['value'] = []
+                          if (filter['item'] === 'node') {
+                              for (let each in allNodes) {
+                                  valueControl.addOption({
+                                      id:allNodes[each][selectedProperty],
+                                      title:allNodes[each][selectedProperty]
+                                  })
+                              }
+                          }
+                          else if (filter['item'] === 'edge') {
+                              for (let each in allEdges) {
+                                  valueControl.addOption({
+                                      id:allEdges[each][selectedProperty],
+                                      title:allEdges[each][selectedProperty]
+                                  })
+                              }
+                          }
+                      }
+                  };
+
+                  let propControl = new TomSelect("#select-property",{
+                      valueField: 'id',
+                      labelField: 'title',
+                      searchField: 'title',
+                      create: false,
+                      sortField: {
+                          field: "text",
+                          direction: "asc"
+                      },
+                      onItemAdd: addValues()
+                  });
+
+                  let addProperties = function() {
+                      return function () {
+                          // loops through the selected network item and adds the attributes to dropdown
+                          // tom-select handles duplicates
+                          clearFilter(false)
+                          if (arguments[0] === 'edge') {
+                              for (let each in allEdges) {
+                                  if (allEdges.hasOwnProperty(each)) {
+                                      for (let eachProp in allEdges[each]) {
+                                          if (allEdges[each].hasOwnProperty(eachProp)) {
+                                              propControl.addOption({id: eachProp, title: eachProp})
+                                          }
+                                      }
+                                  }
+                              }
+                          }
+                          else if (arguments[0] === 'node') {
+                              for (let each in allNodes) {
+                                  if (allNodes.hasOwnProperty(each)) {
+                                      for (let eachProp in allNodes[each]) {
+                                          if (allNodes[each].hasOwnProperty(eachProp)
+                                              && (eachProp !== 'hidden' && eachProp !== 'savedLabel'
+                                                  && eachProp !== 'hiddenLabel')) {
+                                              propControl.addOption({id: eachProp, title: eachProp})
+
+                                          }
+                                      }
+                                  }
+                              }
+                          }
+                      }
+                  };
+
+                  let itemControl = new TomSelect("#select-item",{
+                      create: false,
+                      sortField:{
+                          field: "text",
+                          direction: "asc"
+                      },
+                      onItemAdd: addProperties()
+                  });
+
+                  function clearFilter(reset) {
+                      // utility function to clear all the selected filter options
+                      // if reset is set to true, the existing filter will be removed
+                      // else, only the dropdown options are cleared
+                      propControl.clear();
+                      propControl.clearOptions();
+                      valueControl.clear();
+                      valueControl.clearOptions();
+                      filter = {
+                          item : '',
+                          property : '',
+                          value : []
+                      }
+                      if (reset) {
+                          itemControl.clear();
+                          filterHighlight({nodes: []})
+                      }
+                  }
+
+                  function updateFilter(value, key) {
+                      // key could be 'item' or 'property' and value is as selected in dropdown
+                      filter[key] = value
+                  }
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#f38c5f", "id": "Below or Above", "label": "Below or Above", "shape": "dot", "size": 25.0, "title": "Name: Below or Above\nDatatype: string\nType: nominal\nClassification: calculation field\nDatasource: Wage Analysis\n\nFormula:\nif [Hrly Rate] \u003c [Parameters].[Minimum Wage] and [Service Time in Years] \u003e= [Parameters].[Required Service] then\n\"Below\"\nELSE\n\"Above\"\nend"}, {"color": "green", "id": "Budget Area", "label": "Budget Area", "shape": "dot", "size": 10.0, "title": "Name: Budget Area\nDatatype: string\nType: nominal\nClassification: sourced\nDatasource: Wage Analysis\n\n"}, {"color": "#f38c5f", "id": "Below Minimum Wage", "label": "Below Minimum Wage", "shape": "dot", "size": 25.0, "title": "Name: Below Minimum Wage\nDatatype: string\nType: nominal\nClassification: calculation field\nDatasource: Wage Analysis\n\nFormula:\nif [Hrly Rate] \u003c [Parameters].[Minimum Wage] and [Service Time in Years] \u003e= [Parameters].[Required Service] then\n\"Below Minimum Wage\"\nELSE\n\"Above Minimum Wage\"\nend"}, {"color": "#f38c5f", "id": "Wage Correction", "label": "Wage Correction", "shape": "dot", "size": 25.0, "title": "Name: Wage Correction\nDatatype: real\nType: quantitative\nClassification: calculation field\nDatasource: Wage Analysis\n\nFormula:\nif [Service Time in Years] \u003e [Parameters].[Required Service] then\n(([Parameters].[Minimum Wage]-[Hrly Rate])*52*37.64)*1.363\nend"}, {"color": "#f38c5f", "id": "Display Number of Records", "label": "Display Number of Records", "shape": "dot", "size": 13.75, "title": "Name: Display Number of Records\nDatatype: real\nType: quantitative\nClassification: calculation field\nDatasource: Wage Analysis\n\nFormula:\nifnull(LOOKUP(SUM([Number of Records]),0),0)"}, {"color": "#f38c5f", "id": "Hrly Correction", "label": "Hrly Correction", "shape": "dot", "size": 40.0, "title": "Name: Hrly Correction\nDatatype: real\nType: quantitative\nClassification: calculation field\nDatasource: Wage Analysis\n\nFormula:\nif [Hrly Rate] \u003c [Parameters].[Minimum Wage] and [Service Time in Years] \u003e= [Parameters].[Required Service] then\n[Parameters].[Minimum Wage]\nELSE\n[Hrly Rate]\nend"}, {"color": "#f38c5f", "id": "Hrly Rate Bin Size", "label": "Hrly Rate Bin Size", "shape": "dot", "size": 17.5, "title": "Name: Hrly Rate Bin Size\nDatatype: integer\nType: ordinal\nClassification: calculation field\nDatasource: Wage Analysis\n\nFormula:\nINT ( [Hrly Rate] / 1 ) * 1"}, {"color": "#f38c5f", "id": "Mean", "label": "Mean", "shape": "dot", "size": 17.5, "title": "Name: Mean\nDatatype: real\nType: quantitative\nClassification: calculation field\nDatasource: Wage Analysis\n\nFormula:\nTOTAL (AVG([Hrly Rate]))"}, {"color": "#f38c5f", "id": "STDEV", "label": "STDEV", "shape": "dot", "size": 17.5, "title": "Name: STDEV\nDatatype: real\nType: quantitative\nClassification: calculation field\nDatasource: Wage Analysis\n\nFormula:\nTOTAL ( STDEV ( [Hrly Rate] ) )"}, {"color": "#f38c5f", "id": "Curve", "label": "Curve", "shape": "dot", "size": 25.0, "title": "Name: Curve\nDatatype: real\nType: quantitative\nClassification: calculation field\nDatasource: Wage Analysis\n\nFormula:\n(1/(sqrt([STDEV]^2*2*pi()))) * exp(-( (attr([Hrly Rate Bin Size])-[Mean])^2  /  (2*[STDEV]^2)  )) * 1 * TOTAL(SUM([Number of Records]))"}, {"color": "#f38c5f", "id": "Curve Correction", "label": "Curve Correction", "shape": "dot", "size": 25.0, "title": "Name: Curve Correction\nDatatype: real\nType: quantitative\nClassification: calculation field\nDatasource: Wage Analysis\n\nFormula:\n(1 / ([STDEV Correction] * SQRT(2*PI()))) * EXP(-((ATTR([Hrly Rate Correction Bin Size]) - [Mean Correction])^2 / (2*[STDEV Correction]^2))) * 1 * TOTAL (SUM([Number of Records]))"}, {"color": "#f38c5f", "id": "Hrly Correction (bin)", "label": "Hrly Correction (bin)", "shape": "dot", "size": 13.75, "title": "Name: Hrly Correction (bin)\nDatatype: integer\nType: ordinal\nClassification: calculation field\nDatasource: Wage Analysis\n\nFormula:\n[Hrly Correction]"}, {"color": "#f38c5f", "id": "Hrly Rate (bin)", "label": "Hrly Rate (bin)", "shape": "dot", "size": 13.75, "title": "Name: Hrly Rate (bin)\nDatatype: integer\nType: ordinal\nClassification: calculation field\nDatasource: Wage Analysis\n\nFormula:\n[Hrly Rate]"}, {"color": "#f38c5f", "id": "Hrly Rate Correction Bin Size", "label": "Hrly Rate Correction Bin Size", "shape": "dot", "size": 17.5, "title": "Name: Hrly Rate Correction Bin Size\nDatatype: integer\nType: ordinal\nClassification: calculation field\nDatasource: Wage Analysis\n\nFormula:\nINT ( [Hrly Correction] / 1 ) * 1"}, {"color": "green", "id": "Hrly Rate", "label": "Hrly Rate", "shape": "dot", "size": 40.0, "title": "Name: Hrly Rate\nDatatype: real\nType: quantitative\nClassification: sourced\nDatasource: Wage Analysis\n\n"}, {"color": "green", "id": "ID", "label": "ID", "shape": "dot", "size": 10.0, "title": "Name: ID\nDatatype: integer\nType: ordinal\nClassification: sourced\nDatasource: Wage Analysis\n\n"}, {"color": "#f38c5f", "id": "Mean Correction", "label": "Mean Correction", "shape": "dot", "size": 17.5, "title": "Name: Mean Correction\nDatatype: real\nType: quantitative\nClassification: calculation field\nDatasource: Wage Analysis\n\nFormula:\nTOTAL (AVG([Hrly Correction]))"}, {"color": "#f38c5f", "id": "Number of Records", "label": "Number of Records", "shape": "dot", "size": 21.25, "title": "Name: Number of Records\nDatatype: real\nType: quantitative\nClassification: calculation field\nDatasource: Wage Analysis\n\nFormula:\nFLOAT(1)"}, {"color": "green", "id": "Report Date", "label": "Report Date", "shape": "dot", "size": 10.0, "title": "Name: Report Date\nDatatype: date\nType: ordinal\nClassification: sourced\nDatasource: Wage Analysis\n\n"}, {"color": "#f38c5f", "id": "STDEV Correction", "label": "STDEV Correction", "shape": "dot", "size": 17.5, "title": "Name: STDEV Correction\nDatatype: real\nType: quantitative\nClassification: calculation field\nDatasource: Wage Analysis\n\nFormula:\nTOTAL ( STDEV ( [Hrly Correction] ) )"}, {"color": "green", "id": "Service Time in Years", "label": "Service Time in Years", "shape": "dot", "size": 25.0, "title": "Name: Service Time in Years\nDatatype: real\nType: quantitative\nClassification: sourced\nDatasource: Wage Analysis\n\n"}, {"color": "#936eb0", "id": "Minimum Wage", "label": "Minimum Wage", "shape": "dot", "size": 25.0, "title": "Name: Minimum Wage\nDatatype: real\nType: quantitative\nClassification: parameter\nDatasource: Parameters\n\nFormula:\n15.0"}, {"color": "#936eb0", "id": "Required Service", "label": "Required Service", "shape": "dot", "size": 25.0, "title": "Name: Required Service\nDatatype: real\nType: quantitative\nClassification: parameter\nDatasource: Parameters\n\nFormula:\n0.0"}]);
+                  edges = new vis.DataSet([{"arrows": "to", "from": "Hrly Correction", "to": "Hrly Correction (bin)"}, {"arrows": "to", "from": "Hrly Correction", "to": "Hrly Rate Correction Bin Size"}, {"arrows": "to", "from": "Hrly Correction", "to": "Mean Correction"}, {"arrows": "to", "from": "Hrly Correction", "to": "STDEV Correction"}, {"arrows": "to", "from": "Hrly Rate Bin Size", "to": "Curve"}, {"arrows": "to", "from": "Mean", "to": "Curve"}, {"arrows": "to", "from": "STDEV", "to": "Curve"}, {"arrows": "to", "from": "Hrly Rate Correction Bin Size", "to": "Curve Correction"}, {"arrows": "to", "from": "Hrly Rate", "to": "Below or Above"}, {"arrows": "to", "from": "Hrly Rate", "to": "Below Minimum Wage"}, {"arrows": "to", "from": "Hrly Rate", "to": "Wage Correction"}, {"arrows": "to", "from": "Hrly Rate", "to": "Hrly Correction"}, {"arrows": "to", "from": "Hrly Rate", "to": "Hrly Rate Bin Size"}, {"arrows": "to", "from": "Hrly Rate", "to": "Mean"}, {"arrows": "to", "from": "Hrly Rate", "to": "STDEV"}, {"arrows": "to", "from": "Hrly Rate", "to": "Hrly Rate (bin)"}, {"arrows": "to", "from": "Mean Correction", "to": "Curve Correction"}, {"arrows": "to", "from": "Number of Records", "to": "Display Number of Records"}, {"arrows": "to", "from": "Number of Records", "to": "Curve"}, {"arrows": "to", "from": "Number of Records", "to": "Curve Correction"}, {"arrows": "to", "from": "STDEV Correction", "to": "Curve Correction"}, {"arrows": "to", "from": "Service Time in Years", "to": "Below or Above"}, {"arrows": "to", "from": "Service Time in Years", "to": "Below Minimum Wage"}, {"arrows": "to", "from": "Service Time in Years", "to": "Wage Correction"}, {"arrows": "to", "from": "Service Time in Years", "to": "Hrly Correction"}, {"arrows": "to", "from": "Minimum Wage", "to": "Below or Above"}, {"arrows": "to", "from": "Minimum Wage", "to": "Below Minimum Wage"}, {"arrows": "to", "from": "Minimum Wage", "to": "Wage Correction"}, {"arrows": "to", "from": "Minimum Wage", "to": "Hrly Correction"}, {"arrows": "to", "from": "Required Service", "to": "Below or Above"}, {"arrows": "to", "from": "Required Service", "to": "Below Minimum Wage"}, {"arrows": "to", "from": "Required Service", "to": "Wage Correction"}, {"arrows": "to", "from": "Required Service", "to": "Hrly Correction"}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"physics": {"enabled": true, "forceAtlas2Based": {"springLength": 100}, "minVelocity": 0.75, "solver": "forceAtlas2Based"}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+                    network.on("selectNode", neighbourhoodHighlight);
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
