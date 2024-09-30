@@ -32,7 +32,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This is only a very simple gidget that I used to cosolidate the dashabord usage files `Who Has Seen.xlsx` downloaded from the server. Noted that if you have large number of dashboards, a better way should be querying the [Tableau server repository database](https://tableau.github.io/tableau-data-dictionary/2022.1/data_dictionary.html). The use case here is when you don't have the access right to the Tableau server repository database, and you download `Who Has Seen.xlsx` files from each of the dashboard for a quick analysis, this tool helps you to consolidate them.  
+This tool is a simple utility designed to consolidate multiple `Who Has Seen.xlsx` files, which are downloaded from Tableau dashboards. These files provide usage data and can be quickly merged for a consolidated analysis.
+
+**Note:** For scenarios involving a large number of dashboards, it is more efficient to query the [Tableau server repository database](https://tableau.github.io/tableau-data-dictionary/2022.1/data_dictionary.html) directly. However, if you do not have access to the repository database and need to rely on manually downloading `Who Has Seen.xlsx` files from each dashboard, this tool streamlines the consolidation process, saving time and effort.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -42,7 +44,7 @@ This is only a very simple gidget that I used to cosolidate the dashabord usage 
 
 ### Prerequisites
 
-These are the versions of python and packages when I crteated the script.
+The script was created with the following versions:
 * python 3.8.0
 * pandas==2.0.3
 * openpyxl==3.1.2

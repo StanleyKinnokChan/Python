@@ -2,7 +2,7 @@ import os
 import pandas as pd
 
 # Directory containing the CSV files
-directory = r'C:\Users\schan4\Downloads'
+directory = r'<PATH>'
  
 # Initialize an empty list to hold dataframes
 dataframes = []

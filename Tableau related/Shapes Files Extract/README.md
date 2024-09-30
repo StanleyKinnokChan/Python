@@ -33,7 +33,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-When you see a shape you like in the others Tableau workbook, or you need to use the same shape in other workbooks as a company standard, but no one has saved shape files, you can use this script to extract all the shape files you want.  
+This script allows you to extract shape files from a Tableau workbook. It's useful when you see a shape you like in someone else's Tableau workbook, or when you need to reuse shapes in other workbooks as part of a company standard, but the original shape files were not saved. With this tool, you can easily extract and save all the shape files you need for future use.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -43,7 +43,7 @@ When you see a shape you like in the others Tableau workbook, or you need to use
 
 ### Prerequisites
 
-These is the version of python and package when I crteated the script.
+The script was created with the following versions:
 * xml.etree.ElementTree 1.3.0
 * python 3.8.0
 

@@ -33,7 +33,21 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-When working with numerous fields in Tableau, keeping track of the fields and their dependencies can be quite challenging. It's also time-consuming to open each calculation individually just to examine the formulas and understand their function. This script generates a CSV file listing all the calculations, as well as HTML files for each data source that visualize calculation dependencies as a network graph, along with other statistics.
+When working with numerous fields in Tableau, keeping track of field relationships and dependencies can be challenging. Opening each calculation manually to examine the formulas is time-consuming and inefficient. This script automates the process by generating a CSV file that lists all the calculations, and HTML files that visualize calculation dependencies as a network graph for each data source.
+
+### Features
+
+- **CSV Output**: Automatically generates a CSV file that lists all calculations across your Tableau workbook, allowing for quick inspection of formulas.
+- **Dependency Visualization**: Creates interactive HTML files for each data source that visualize calculation dependencies as a network graph, providing a clear and comprehensive overview.
+- **Field Statistics**: Provides additional statistics for fields, helping you better understand field usage and relationships within the workbook.
+- **Impact Evaluation**: Enables you to evaluate the impact of changing a calculation on other related calculations by visualizing dependencies, helping you assess potential ripple effects throughout the workbook.
+
+### Use Cases
+
+- **Manage Complex Workbooks**: Easily track and manage field dependencies in workbooks with numerous calculated fields and data sources.
+- **Save Time**: Avoid the hassle of opening each calculation manually to inspect its formula. Quickly view all necessary information in the CSV file or explore dependencies visually through the network graph.
+- **Impact Analysis**: If you modify a calculation, this tool helps you understand how the change will affect other dependent calculations, making it easier to predict and mitigate any downstream issues.
+- **Optimize Workflows**: Gain insights into your field structure and dependencies to optimize your Tableau workbook design, making it easier to debug and enhance performance.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -43,7 +57,7 @@ When working with numerous fields in Tableau, keeping track of the fields and th
 
 ### Prerequisites
 
-These are the versions of python and packages when I crteated the script.
+The script was created with the following versions:
 * python 3.8.0
 * pandas==2.0.3
 * xml.etree.ElementTree==1.3.0

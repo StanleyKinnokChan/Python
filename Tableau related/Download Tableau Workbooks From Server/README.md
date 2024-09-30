@@ -32,16 +32,20 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This script helps download a list of Tableau dashboard from tableau Server via Personal access token (PAT).The downloaded dashboard will have "_<current_date>" suffix attached to the dashboard name. 
 
-Usage cases:
-In Tableau server, "Dashboard version" only will be created if a dashboard is re-published and overwrite the previous one. However, if you fully refresh data extract, no version of the dashbaord with the old extract will be kept. If you want to revert the data back to previous version connected the dashboard, you need to ask the data engineer to repopulate the data from the snapshot, re-extract the data, reset the parameter, re-validate the data rendered in the dashboard. What we can do is to download the dashbaord before the refresh take place. If the latest version is not satisfied, we can just republish the downloaded dashboard. 
+This script automates the download of Tableau dashboards from a Tableau Server using a Personal Access Token (PAT). The downloaded dashboards will have a suffix in the format of `_<current_date>` attached to their names, making it easy to track when they were downloaded.
 
-P.S. I write the functions inside a class so that more function may be added in the futher if I have time.
+#### Use Cases
 
-P.S.2 You can add the function so that the downloaded dashboards can be then saved in somewhere else as backup and development history (e.g. SharePoint, S3...)  
+In Tableau Server, a "Dashboard Version" is only created when a dashboard is republished, overwriting the previous one. However, if you only refresh the data extract, no version of the dashboard with the old data is retained. This can be problematic if you need to revert the dashboard to a previous data state.
 
-P.S.3 You can schedule the run of the script or set to be a part of data pipeline so that the dashboards are backuped after the extract refresh is done. 
+To avoid this, you can use this script to download the dashboard before refreshing the extract. If the latest version after the refresh is unsatisfactory, you can simply republish the downloaded version, saving significant time and effort compared to requesting a data engineer to restore snapshots and rebuild the data.
+
+## Additional Features and Notes
+
+- **Extensibility**: The script is designed with a class structure, allowing for additional functions to be added in the future.
+- **Backup Capability**: You can extend the script to store the downloaded dashboards as a backup or for development history in locations such as SharePoint, S3, etc.
+- **Automation**: The script can be scheduled to run automatically or integrated into a data pipeline, ensuring that dashboards are backed up immediately after a data extract refresh.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -51,7 +55,7 @@ P.S.3 You can schedule the run of the script or set to be a part of data pipelin
 
 ### Prerequisites
 
-These are the versions of python and packages when I crteated the script.
+The script was created with the following versions:
 * python 3.8.0
 * pandas==2.0.3
 * tableauserverclient==0.32
