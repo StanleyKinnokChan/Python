@@ -1,9 +1,11 @@
 import xml.etree.ElementTree as ET
 import pandas as pd
 from pyvis.network import Network
+import os 
 
 # Parse the file
 file_path = r"<path of your .twb file>"
+folder_path = os.path.dirname(file_path)
 tree = ET.parse(file_path)
 root = tree.getroot()
 
@@ -80,7 +82,6 @@ if datasources_element is not None:
                         "classification": "calculation field"
                     }
             groups.append(group_info)
-            print(group_info)
             
 columns_df = pd.DataFrame(columns)
 groups_df = pd.DataFrame(groups)
@@ -116,11 +117,11 @@ def contains_comment(row):
 combined_df['comment_exist'] = combined_df.apply(contains_comment, axis=1)
 
 
-# Print the updated DataFrame
-combined_df.to_csv(r"field_list.csv")
-combined_df
-
-file_path
+# Output the csv
+output_csv_name = r"field_list.csv"
+output_csv_path = os.path.join(folder_path,output_csv_name)
+combined_df.to_csv(output_csv_path)
+print(f"\n    csv file containing the field info saved to {output_csv_path}\n")
 
 # Get unique datasource values and remove 'Parameters'
 datasources = [source for source in combined_df['datasource'].unique() if source != 'Parameters']
@@ -225,18 +226,19 @@ for source in datasources:
     stats_html = generate_stats_html(df_filtered, source, color_map)
     
     # Save to HTML file
-    file_name = f'network_{source}.html'
-    net.write_html(file_name)
+    output_html_name = f'network_{source}.html'
+    output_html_path = os.path.join(folder_path,output_html_name)
+    net.write_html(output_html_path)
 
     # Read the existing HTML content
-    with open(file_name, 'r') as f:
+    with open(output_html_path, 'r') as f:
         content = f.read()
 
     # Insert the statistics HTML at the top of the body
     content = content.replace('<body>', f'<body>{stats_html}', 1)
 
     # Write the modified content back to the file
-    with open(file_name, 'w') as f:
+    with open(output_html_path, 'w') as f:
         f.write(content)
 
-    print(f"Network graph for datasource '{source}' saved to {file_name}")
+    print(f"    Network graph for datasource '{source}' saved to {output_html_path}\n")
