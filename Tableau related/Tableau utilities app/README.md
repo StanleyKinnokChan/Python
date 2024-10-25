@@ -9,6 +9,9 @@
   </p>
 </div>
 
+<p align="center">
+  <img src="https://i.imgur.com/i0th3xp.png" alt="Sublime's custom image"/>
+</p>
 
 <!-- TABLE OF CONTENTS -->
 <details>
