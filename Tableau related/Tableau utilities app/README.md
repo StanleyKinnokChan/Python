@@ -44,11 +44,11 @@ More functions can be requested and the fleasibility will be evaluated. I will a
 
 ### Prerequisites
 
-The script was created with the following versions:
-matplotlib==3.7.4
-pandas==2.0.3
-pyvis==0.3.2
-tkinterdnd2==0.4.2
+The script was created with python 3.8 and the following packages' versions:
+- matplotlib==3.7.4
+- pandas==2.0.3
+- pyvis==0.3.2
+- tkinterdnd2==0.4.2
 
 ### Usage
 1. To use the the app, first clone the repository and move to the app folder in CMD
