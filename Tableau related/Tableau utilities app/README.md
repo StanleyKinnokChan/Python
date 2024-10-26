@@ -10,7 +10,7 @@
 </div>
 
 <p align="center">
-  <img src="https://i.imgur.com/i0th3xp.png" alt="Sublime's custom image"/>
+  <img src="https://i.imgur.com/pWtTWDF.png" alt="Sublime's custom image"/>
 </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -59,7 +59,7 @@ The script was created with python 3.8 and the following packages' versions:
 1. To use the the app, first clone the repository and move to the app folder in CMD
 ```
 git clone https://github.com/StanleyKinnokChan/Python.git
-cd <your_path>/Python/Tableau related/Tableau utilities app
+cd "<your_path>/Python/Tableau related/Tableau utilities app"
 ```
   
 2. Install the required packages in requirements.txt
