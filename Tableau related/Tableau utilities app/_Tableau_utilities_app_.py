@@ -1,9 +1,10 @@
 import tkinter as tk
-from tkinter import filedialog
+from tkinter import filedialog, messagebox
 from tkinterdnd2 import TkinterDnD, DND_FILES
 import sys
 from read_tableau_to_xml import read_tableau_to_xml
 from Shapes_Files_Extract import Shapes_Files_Extract
+from image_extract import image_extract
 from unzip_twbx import unzip_twbx
 from Tableau_Calculation_Dependencies import Tableau_Calculation_Dependencies
 from workbook_colour_extractor import *
@@ -89,6 +90,9 @@ def run_Shapes_Files_Extract():
         # Then proceed to extract shapes
         run_script_with_output(lambda: process_file(Shapes_Files_Extract, xml_root))
 
+def run_image_extract():
+    return process_file(image_extract)
+
 def run_Tableau_Calculation_Dependencies():
     # Process XML first
     xml_root = run_read_tableau_to_xml()
@@ -105,6 +109,12 @@ def run_workbook_colour_extractor():
 
 # Function to display new panel with buttons to execute different scripts
 def show_script_panel():
+
+    if not os.path.exists(file_path.get()) or not file_path.get().endswith(('.twb', '.twbx')):
+        # Show warning when file path is not valid
+        messagebox.showwarning("Invalid File", "Please select a valid workbook (.twb/.twbx).")
+        return  # Prevent further execution and do not move to the script panel
+
     # Hide the initial panel (label, entry, and buttons)
     initial_panel.pack_forget()
 
@@ -117,7 +127,7 @@ def show_script_panel():
     tk.Label(script_panel, text="What actions you want to perform?", font=("Arial", 14)).pack(pady=10)
 
     # Button to execute Script 1
-    script1_button = tk.Button(script_panel, text="Unzip the package workbook (.twbx)", command=run_unzip_twbx)
+    script1_button = tk.Button(script_panel, text="Unzip the Package Workbook (.twbx)", command=run_unzip_twbx)
     script1_button.pack(pady=5)
 
     # Button to execute Script 2
@@ -125,12 +135,16 @@ def show_script_panel():
     script2_button.pack(pady=5)
 
     # Button to execute Script 3
-    script3_button = tk.Button(script_panel, text="Calculation Dependency Analysis", command=run_Tableau_Calculation_Dependencies)
+    script3_button = tk.Button(script_panel, text="Extract Container Images", command=run_image_extract)
     script3_button.pack(pady=5)
 
     # Button to execute Script 4
-    script4_button = tk.Button(script_panel, text="Extract colour from workbook", command=run_workbook_colour_extractor)
+    script4_button = tk.Button(script_panel, text="Calculation Dependency Analysis", command=run_Tableau_Calculation_Dependencies)
     script4_button.pack(pady=5)
+
+    # Button to execute Script 5
+    script5_button = tk.Button(script_panel, text="Extract Colour from Workbook", command=run_workbook_colour_extractor)
+    script5_button.pack(pady=5)
 
     # Show the console_output only in the script panel
     global console_output
@@ -146,7 +160,7 @@ initial_panel = tk.Frame(root)
 initial_panel.pack(pady=10)
 
 # Create and configure the label to display the file path
-text_header = tk.Label(initial_panel, text='      Tableau Utilities (Beta 1.1)',
+text_header = tk.Label(initial_panel, text='      Tableau Utilities (Beta 1.2)',
 							fg='white', bg='#0876ee', font=('verdana',14,'bold'),
 							width=450, height=1, compound=tk.LEFT,
 							anchor='w')

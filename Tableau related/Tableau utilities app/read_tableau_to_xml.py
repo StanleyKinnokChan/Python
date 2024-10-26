@@ -3,7 +3,7 @@ import os
 import xml.etree.ElementTree as ET
 import shutil
 
-def read_tableau_to_xml(file_path):
+def read_tableau_to_xml(file_path) -> None:
     file_path = r'{}'.format(file_path)
     twb_file_path = None
     extracted_folder = None
@@ -29,6 +29,9 @@ def read_tableau_to_xml(file_path):
         root = tree.getroot()
 
         return root
+    
+    except Exception as e:
+        print(f"An error occurred: {e}")
 
     finally:
         if extracted_folder and os.path.exists(extracted_folder):

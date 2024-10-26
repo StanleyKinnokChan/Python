@@ -95,4 +95,3 @@ Project Link: [https://github.com/StanleyKinnokChan/Python/tree/main/Restful%20A
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-
