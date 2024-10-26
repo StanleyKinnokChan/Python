@@ -36,9 +36,11 @@
 ## About The Project
 This project converted different scirpts into an single Tkinter app. The users can choose a Tableau workbook and perform different functions, which includes:
 - Unzip the package workbook
-- Extract shapes within the workbook
-- Perform calcaultion dependency analysis
+- Extract shapes from the workbook
+- Extract image from the workbook
 - Extract colour from workbook (image is not included)
+- Perform calcaultion dependency analysis
+
 
 More functions can be requested and the fleasibility will be evaluated. I will also develop them in the future if time is available.
 
@@ -94,4 +96,4 @@ Project Link: [https://github.com/StanleyKinnokChan/Python/tree/main/Restful%20A
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
+[forks-url]: https://github.com/StanleyKinnokChan/Python
