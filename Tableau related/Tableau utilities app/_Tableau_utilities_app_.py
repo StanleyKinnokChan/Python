@@ -1,5 +1,5 @@
 import tkinter as tk
-from tkinter import filedialog, messagebox
+from tkinter import filedialog, messagebox, ttk
 from tkinterdnd2 import TkinterDnD, DND_FILES
 import sys
 from read_tableau_to_xml import read_tableau_to_xml
@@ -8,8 +8,10 @@ from image_extract import image_extract
 from unzip_twbx import unzip_twbx
 from Tableau_Calculation_Dependencies import Tableau_Calculation_Dependencies
 from workbook_colour_extractor import *
+from tableau_workbook_translator import *
 import os
 import webbrowser
+
 
 # Initialize the main window
 root = TkinterDnD.Tk()  # TkinterDnD enabled root
@@ -107,6 +109,13 @@ def run_workbook_colour_extractor():
         # Then proceed with calculation dependency analysis
         run_script_with_output(lambda: process_file(workbook_colour_extractor, xml_root))
 
+def run_tableau_workbook_translator():
+    # Process XML first
+    xml_root = run_read_tableau_to_xml()
+    if xml_root:
+        # Then proceed with calculation dependency analysis
+        run_script_with_output(lambda: process_file(tableau_workbook_translator, xml_root,'en', 'zh-TW'))
+
 # Function to display new panel with buttons to execute different scripts
 def show_script_panel():
 
@@ -146,6 +155,10 @@ def show_script_panel():
     script5_button = tk.Button(script_panel, text="Extract Colour from Workbook", command=run_workbook_colour_extractor)
     script5_button.pack(pady=5)
 
+    # Button to execute Script 6
+    script6_button = tk.Button(script_panel, text="Translate Workbook", command=open_language_selection)
+    script6_button.pack(pady=5)
+
     # Show the console_output only in the script panel
     global console_output
     console_output = tk.Text(script_panel, height=10, width=70, state=tk.DISABLED)
@@ -154,6 +167,76 @@ def show_script_panel():
     # Add a "Return" button to go back to the initial panel
     return_button = tk.Button(script_panel, text="Return", command=show_initial_panel)
     return_button.pack(pady=10)
+
+
+def open_language_selection():
+    # Define available languages
+    languages = {
+        'afrikaans': 'af', 'albanian': 'sq', 'amharic': 'am', 'arabic': 'ar', 'armenian': 'hy',
+        'assamese': 'as', 'aymara': 'ay', 'azerbaijani': 'az', 'bambara': 'bm', 'basque': 'eu', 
+        'belarusian': 'be', 'bengali': 'bn', 'bhojpuri': 'bho', 'bosnian': 'bs', 'bulgarian': 'bg', 
+        'catalan': 'ca', 'cebuano': 'ceb', 'chichewa': 'ny', 'chinese (simplified)': 'zh-CN', 
+        'chinese (traditional)': 'zh-TW', 'corsican': 'co', 'croatian': 'hr', 'czech': 'cs', 'danish': 'da', 
+        'dhivehi': 'dv', 'dogri': 'doi', 'dutch': 'nl', 'english': 'en', 'esperanto': 'eo', 'estonian': 'et', 
+        'ewe': 'ee', 'filipino': 'tl', 'finnish': 'fi', 'french': 'fr', 'frisian': 'fy', 'galician': 'gl', 
+        'georgian': 'ka', 'german': 'de', 'greek': 'el', 'guarani': 'gn', 'gujarati': 'gu', 'haitian creole': 'ht', 
+        'hausa': 'ha', 'hawaiian': 'haw', 'hebrew': 'iw', 'hindi': 'hi', 'hmong': 'hmn', 'hungarian': 'hu', 
+        'icelandic': 'is', 'igbo': 'ig', 'ilocano': 'ilo', 'indonesian': 'id', 'irish': 'ga', 'italian': 'it', 
+        'japanese': 'ja', 'javanese': 'jw', 'kannada': 'kn', 'kazakh': 'kk', 'khmer': 'km', 'kinyarwanda': 'rw', 
+        'konkani': 'gom', 'korean': 'ko', 'krio': 'kri', 'kurdish (kurmanji)': 'ku', 'kurdish (sorani)': 'ckb', 
+        'kyrgyz': 'ky', 'lao': 'lo', 'latin': 'la', 'latvian': 'lv', 'lingala': 'ln', 'lithuanian': 'lt', 
+        'luganda': 'lg', 'luxembourgish': 'lb', 'macedonian': 'mk', 'maithili': 'mai', 'malagasy': 'mg', 
+        'malay': 'ms', 'malayalam': 'ml', 'maltese': 'mt', 'maori': 'mi', 'marathi': 'mr', 'meiteilon (manipuri)': 'mni-Mtei', 
+        'mizo': 'lus', 'mongolian': 'mn', 'myanmar': 'my', 'nepali': 'ne', 'norwegian': 'no', 'odia (oriya)': 'or', 
+        'oromo': 'om', 'pashto': 'ps', 'persian': 'fa', 'polish': 'pl', 'portuguese': 'pt', 'punjabi': 'pa', 
+        'quechua': 'qu', 'romanian': 'ro', 'russian': 'ru', 'samoan': 'sm', 'sanskrit': 'sa', 'scots gaelic': 'gd', 
+        'sepedi': 'nso', 'serbian': 'sr', 'sesotho': 'st', 'shona': 'sn', 'sindhi': 'sd', 'sinhala': 'si', 
+        'slovak': 'sk', 'slovenian': 'sl', 'somali': 'so', 'spanish': 'es', 'sundanese': 'su', 'swahili': 'sw', 
+        'swedish': 'sv', 'tajik': 'tg', 'tamil': 'ta', 'tatar': 'tt', 'telugu': 'te', 'thai': 'th', 'tigrinya': 'ti', 
+        'tsonga': 'ts', 'turkish': 'tr', 'turkmen': 'tk', 'twi': 'ak', 'ukrainian': 'uk', 'urdu': 'ur', 'uyghur': 'ug', 
+        'uzbek': 'uz', 'vietnamese': 'vi', 'welsh': 'cy', 'xhosa': 'xh', 'yiddish': 'yi', 'yoruba': 'yo', 'zulu': 'zu'
+    }
+
+    # Create a new window for language selection
+    language_window = tk.Toplevel(root)
+    language_window.title("Select Languages")
+
+    tk.Label(language_window, text="Select Source Language:").pack(pady=5)
+    source_language = tk.StringVar(language_window)
+    source_language.set('english')  # Default value
+
+    # Create a combobox for the source language
+    source_menu = ttk.Combobox(language_window, textvariable=source_language, values=list(languages.keys()), state="readonly")
+    source_menu.pack(pady=5)
+
+    tk.Label(language_window, text="Select Target Language:").pack(pady=5)
+    target_language = tk.StringVar(language_window)
+    target_language.set('chinese (traditional)')  # Default value
+
+    # Create a combobox for the target language
+    target_menu = ttk.Combobox(language_window, textvariable=target_language, values=list(languages.keys()), state="readonly")
+    target_menu.pack(pady=5)
+
+    text_translation_warning = tk.Label(language_window, text="Noted that it only translates the text in the containers and titles on dashboards, not the data itself", font=("Arial", 9), anchor="w")  # Align text to the left
+    text_translation_warning.pack(pady=20, fill='x')  # Use fill='x' to make the label take the full width
+
+    def confirm_selection():
+        # Get the language codes based on user selection
+        src_lang = languages[source_language.get()]
+        tgt_lang = languages[target_language.get()]
+        
+        # Run the translation process with selected languages
+        xml_root = run_read_tableau_to_xml()
+        if xml_root:
+            run_script_with_output(lambda: process_file(tableau_workbook_translator, xml_root, src_lang, tgt_lang))
+
+        # Close the language selection window after confirming
+        language_window.destroy()
+
+    # Add a confirmation button
+    tk.Button(language_window, text="Confirm", command=confirm_selection).pack(pady=10)
+
+
 
 # Initial Panel (Drag and Drop, File Selection)
 initial_panel = tk.Frame(root)
