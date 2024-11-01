@@ -40,6 +40,7 @@ This project converted different scirpts into an single Tkinter app. The users c
 - Extract image from the workbook
 - Extract colour from workbook (image is not included)
 - Perform calcaultion dependency analysis
+- translate the workbook
 
 
 More functions can be requested and the fleasibility will be evaluated. I will also develop them in the future if time is available.
@@ -50,6 +51,7 @@ More functions can be requested and the fleasibility will be evaluated. I will a
 ### Prerequisites
 
 The script was created with python 3.8 and the following packages' versions:
+- deep_translator==1.11.4
 - matplotlib==3.7.4
 - pandas==2.0.3
 - pyvis==0.3.2
